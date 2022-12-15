@@ -114,3 +114,22 @@ border: 1px solid var(--primary-color);
   border-radius: 12px;
   padding: 0.625rem;
 }
+
+/* ******************** Cardf********************* */
+.cardf{
+  border: none;
+}
+.card-subtitle{
+font-size: 0.688rem ;
+color: var(--primary-color);
+margin-bottom: 1rem;
+
+}
+.cardf .card-title{
+  font-weight: 700 !important;
+  margin-bottom: 1.5rem;
+}
+.cardf .card-text{
+  color: var(--text-secondary);
+  font-size: 0.875rem;
+}

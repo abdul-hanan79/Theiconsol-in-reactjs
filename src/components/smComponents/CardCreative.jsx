@@ -1,15 +1,15 @@
 import Card from 'react-bootstrap/Card';
 
 
-function Cardb(props) {
+function CardCreative(props) {
   return (
   
-          <Card className='cardb' style={{backgroundColor: props.bgcolor}}>
+          <Card className='cardc' style={{backgroundColor: props.bgcolor}}>
             <Card.Img variant="top" 
             src={props.image} className='cardimg' />
             <Card.Body>
               <Card.Title className='cardheading'>{props.title}</Card.Title>
-              <Card.Text className='carddescription' >
+              <Card.Text  className='carddescription'>
                {props.text}
               </Card.Text>
             </Card.Body>
@@ -18,4 +18,4 @@ function Cardb(props) {
   );
 }
 
-export default Cardb;
+export default CardCreative;

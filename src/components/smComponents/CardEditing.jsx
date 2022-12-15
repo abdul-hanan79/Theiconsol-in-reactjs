@@ -3,20 +3,19 @@ import Card from 'react-bootstrap/Card';
 import ArrowButton from './ArrowButton';
 import img from '../../assests/cardeimg.jpg'
 
-function Carde() {
+function CardEditing(props) {
   return (
     <Card className='Carde text-center'>
       <Card.Img variant="top" src={img} />
       <Card.Body>
-        <Card.Title>Card Title</Card.Title>
+        <Card.Title>{props.title}</Card.Title>
         <Card.Text className='mb-4'>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
+          {props.text}
         </Card.Text>
-        <ArrowButton color='white'/>
+        <ArrowButton color='white' />
       </Card.Body>
     </Card>
   );
 }
 
-export default Carde;
+export default CardEditing;

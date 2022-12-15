@@ -1,7 +1,7 @@
 import Card from 'react-bootstrap/Card';
 
 
-function Cards(props) {
+function CardMain(props) {
   return (
 
 
@@ -18,4 +18,4 @@ function Cards(props) {
   );
 }
 
-export default Cards;
+export default CardMain;
