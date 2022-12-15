@@ -1,46 +1,74 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
 
-:root{
-  --text-secondary:#596080
+/* Colors:
+Primary color: F58648  (Orange)
+Secondary color: 19293A (Dark Blue)
+Gradient Colors:
+color 1: F58648  (Dark Orange)
+color 2: ECA028 (Light Orange) */
+
+:root {
+  --primary-color: #F58648;
+  --secondary-color: #19293A;
+  --dark-graident: #F58648;
+  --light-gradient: #ECA028;
+  --text-secondary: #596080;
+  --secondary-bgColor: #F5F6FA;
+
 }
+
 /* /* /* **************Card************* */
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-body{
-font-family: 'Poppins', sons-serif !important;
+
+body {
+  font-family: 'Poppins', sons-serif !important;
 }
 
-.cardimg{
+.button {
+  background-color: var(--secondary-color);
+  transition: all 0.4s;
+}
+
+.button:hover{
+background-color: var(--primary-color);
+transform: translateY(-0.3rem);
+border: 1px solid var(--primary-color);
+}
+.cardimg {
   max-width: 100%;
   max-height: 100%;
 }
+
 .carda {
-border-radius: 0.625rem;
+  border-radius: 0.625rem;
 
-text-align: left;
-width: 100%;
-transition: all 0.3s ease;
+  text-align: left;
+  width: 100%;
+  transition: all 0.3s ease;
 
-box-shadow: 0 1px 3px rgb(0 0 0 / 8%), 0 4px 8px rgb(0 0 0 / 4%);
+  box-shadow: 0 1px 3px rgb(0 0 0 / 8%), 0 4px 8px rgb(0 0 0 / 4%);
 }
 
 /* /* /* **************Card b************* */
-.cardb{
+.cardb {
   border: none;
-  box-shadow:none;
+  box-shadow: none;
 }
+
 /* 
 ****************************************** CARDC******************************* */
-.cardc{
+.cardc {
   border-radius: 0.625rem;
   text-align: left;
-width: 100%;
-transition: all 0.3s ease;
+  width: 100%;
+  transition: all 0.3s ease;
 }
-.cardheading{
+
+.cardheading {
   font-size: 1rem;
   line-height: 1.5rem;
   text-overflow: ellipsis;
@@ -48,8 +76,41 @@ transition: all 0.3s ease;
   white-space: nowrap;
   font-family: 'Poppins' !important;
 }
-.carddescription{
+
+.carddescription {
   font-size: 0.875rem;
   line-height: 1.5rem;
   color: var(--text-secondary) !important;
+}
+
+/* ******************************* */
+.card-div {
+  padding: 0.625rem;
+}
+
+.cardd {
+  background: #fff;
+  box-shadow: 0px 3px 8px rgb(0 0 0 / 8%), 0px 12px 16px rgb(0 0 0 / 4%);
+  border-radius: 20px;
+  height: 9.375rem;
+  color: #000;
+  flex-direction: column;
+  padding: 0.625rem;
+  /* position: relative; */
+  /* border: 0.16rem red solid; */
+}
+
+.cardd .card-body {
+  flex: 0 1 auto !important;
+}
+
+
+/* ******************** Carde********************* */
+
+.Carde {
+  /* width: '18rem'; */
+  background-color: var(--secondary-bgColor);
+  border: 1px solid var(--secondary-bgColor);
+  border-radius: 12px;
+  padding: 0.625rem;
 }
