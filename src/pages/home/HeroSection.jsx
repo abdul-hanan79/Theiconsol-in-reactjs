@@ -7,7 +7,7 @@ import HomeInputGroup from "../../components/HeroInputGroup"
 function HeroSection() {
   return (
     <>
-      <div className='hero-main-div position-relative'>
+      <div className='hero-main-div '>
         <section className='hero'>
           <div className="container">
             {/* hero section main text div  */}
@@ -27,13 +27,17 @@ function HeroSection() {
           </div>
 
         </section>
-        <section className='card-section position-absolu'>
-          <div className="container">
-            <div className="row">
-              <div className="col-lg-3 col-md-4 col-sm-6"><CardMain title='3D Illustrations' text='118,300 + 3d Contents in 3D with input file' bgColor='#DAFEEA ' /></div>
-              <div className="col-lg-3 col-md-4 col-sm-6"><CardMain title='Lottie Animations' text='79,000+ Mini Animations, Both Free and Paid' bgColor='#EEF8F9' /></div>
-              <div className="col-lg-3 col-md-4 col-sm-6"><CardMain title='Illustrations' text='152,000+ vector illustration colour editing software' bgColor='#FCF2F2' /></div>
-              <div className="col-lg-3 col-md-4 col-sm-6"><CardMain title='Vector Icons' text='4.9 million plus vector icons, colour editor' bgColor='#FFE5EE' /></div>
+        <section className='card-section  '>
+          <div className="container ">
+            <div className="row position-absolute ">       
+              <div className=" col-md-3 col-sm-6 mb-4"><CardMain title='3D Illustrations' 
+              text='118,300 + 3d Contents in 3D with input file' bgColor='#DAFEEA ' /></div>
+              <div className=" col-md-3 col-sm-6 mb-4"><CardMain title='Lottie Animations' 
+              text='79,000+ Mini Animations, Both Free and Paid' bgColor='#EEF8F9' /></div>
+              <div className="col-md-3 col-sm-6 mb-4"><CardMain title='Illustrations' 
+              text='152,000+ vector illustration colour editing software' bgColor='#FCF2F2'/></div>
+              <div className=" col-md-3 col-sm-6 mb-4"><CardMain title='Vector Icons' 
+              text='4.9 million plus vector icons, colour editor' bgColor='#FFE5EE' /></div>
             </div>
           </div>
         </section>
@@ -42,4 +46,4 @@ function HeroSection() {
   )
 }
 
-export default HeroSection
+export default HeroSection;

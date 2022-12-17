@@ -1,0 +1,18 @@
+
+@media (min-width:761px) and (max-width:1000px) {
+    .hero-main-div{position: none;}
+    .card-section .container .row{
+      position: none;
+      /* display: grid;
+      grid-template-columns: 1fr 1fr; */
+      margin: 0 ;
+      top:30rem;
+      right: 3px;
+      
+      padding: 0 6rem;
+    }
+    .hero{
+      padding-bottom: 18%;
+    }
+   
+}

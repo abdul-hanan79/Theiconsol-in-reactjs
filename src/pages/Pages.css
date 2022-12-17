@@ -36,3 +36,16 @@ text-align: center;
   .hero-section-main-p1{
     margin-bottom: -1px;
   }
+ .hero-main-div{position: relative;}
+  .card-section .container .row{
+    position: absolute;
+    margin: 0 ;
+    top:30rem;
+    right: 3px;
+    
+    padding: 0 6rem;
+  }
+  .hero{
+    padding-bottom: 18%;
+  }
+ 

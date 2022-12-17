@@ -46,12 +46,11 @@ body {
 
 .card-main {
   border-radius: 0.625rem;
-
   text-align: left;
   width: 100%;
   transition: all 0.3s ease;
-
   box-shadow: 0 1px 3px rgb(0 0 0 / 8%), 0 4px 8px rgb(0 0 0 / 4%);
+  border: none;
 }
 
 /* /* /* **************Card b************* */
@@ -176,8 +175,6 @@ body {
 .hero-input-group {
   border-radius: 3rem;
 }
-
-
 .hero-input {
   border: none;
   color: var(--text-secondary);
@@ -189,18 +186,11 @@ body {
   border: none !important;
   
 }
-
 .trending-title {
   opacity: 0.6;
   color: var(--text-secondary);
   font-weight: 600;
 }
-
-/* .trending-list-item {
-    
-    color: white !important;
-    background-color: red !important  ;
-  } */
 .trending-list li {
   color: white;
 }
