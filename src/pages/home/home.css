@@ -1,0 +1,74 @@
+:root {
+    --primary-color: #F58648;
+    --secondary-color: #19293A;
+    --dark-graident: #F58648;
+    --light-gradient: #ECA028;
+    --text-secondary: #596080;
+    --secondary-bgColor: #F5F6FA;
+  
+  }
+
+/* ************************HEROSECTION ***************** */
+.hero{
+    background: linear-gradient(to bottom, var(--dark-graident) , var(--light-gradient)) ; 
+}
+.hero-section-main{
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding-top: 7rem;
+    padding-bottom: 2rem;
+    text-align: center;
+  }
+  .hero-section-main h1{
+      font-size: 3rem;
+      line-height: 3.625rem;
+      color: white;
+      letter-spacing: -0.015rem;
+  }
+  .hero-section-main p{
+    opacity: 0.75;
+  }
+  .hero-section-main-p1{
+    margin-bottom: -1px;
+  }
+ /* .hero-main-div{position: relative;} */
+  .card-section .container .row{
+   margin-top: -10.063rem;
+  }
+  .hero{
+    padding-bottom: 18%;
+  }
+  /* ***************************Trusting Brand ********************************* */
+  .trusted-brand-logos{
+    gap:30px
+  }
+  /* turesting brand hrading */
+  .trusted-brand-heading{
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  .trusted-brand-img{
+    transition: all 2s;
+    border-radius: 10px;
+    
+  }
+  .trusted-brand-img:hover{
+    background-color: #19293A;
+    transition: all 2s 
+  }
+
+  /*  *********************************Add Magic**************************************** */
+ .add-magic-heading{
+  font-size: 2.60rem;
+  line-height: 3.625rem;
+  letter-spacing: -0.015em;
+  /* font-family: inherit; */
+  font-weight: 600;
+ }
+ .add-magic-text{
+  opacity: 0.5;
+ }

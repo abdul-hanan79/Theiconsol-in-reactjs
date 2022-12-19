@@ -1,7 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import "./pages/Pages.css"
+import "./pages/home/home.css"
+import "./pages/footer/Footer.css"
+
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 

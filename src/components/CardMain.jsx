@@ -5,10 +5,10 @@ function CardMain(props) {
   return (
 
 <>
-    <Card className='card-main' style={{backgroundColor: props.bgColor}}>
-      <Card.Body>
+    <Card className='card-main ' style={{backgroundColor: props.bgColor}}>
+      <Card.Body className='card-main-body'>
         <Card.Title>{props.title}</Card.Title>
-        <Card.Text>
+        <Card.Text >
           {props.text}
         </Card.Text>
       </Card.Body>

@@ -1,7 +1,7 @@
 
 
 import React from 'react'
-import {Container, Row } from 'react-bootstrap';
+import {Container, Row , Col} from 'react-bootstrap';
 import CardMain from '../../components/CardMain'
 import HomeInputGroup from "../../components/HeroInputGroup"
 
@@ -32,14 +32,14 @@ function HeroSection() {
       </section>
       <section className='card-section  '>
         <Container >
-          <Row className="position-absolute">
-            <Col md={3} sm-={6} className="mb-4"><CardMain title='3D Illustrations'
+          <Row >
+            <Col md={6} sm={6} lg={3} xs={12} className="mb-4"><CardMain title='3D Illustrations'
               text='118,300 + 3d Contents in 3D with input file' bgColor='#DAFEEA ' /></Col>
-            <Col md={3} sm-={6}  className="mb-4"><CardMain title='Lottie Animations'
+            <Col md={6} sm={6} lg={3} xs={12} className="mb-4"><CardMain title='Lottie Animations'
               text='79,000+ Mini Animations, Both Free and Paid' bgColor='#EEF8F9' /></Col>
-            <Col md={3} sm-={6}  className="mb-4"><CardMain title='Illustrations'
+            <Col md={6} sm={6} lg={3} xs={12} className="mb-4"><CardMain title='Illustrations'
               text='152,000+ vector illustration colour editing software' bgColor='#FCF2F2' /></Col>
-            <Col md={3} sm-={6}  className="mb-4"><CardMain title='Vector Icons'
+            <Col md={6} sm={6} lg={3} xs={12} className="mb-4"><CardMain title='Vector Icons'
               text='4.9 million plus vector icons, colour editor' bgColor='#FFE5EE' /></Col>
           </Row>
         </Container>

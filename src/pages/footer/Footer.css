@@ -1,0 +1,49 @@
+
+
+:root {
+    --primary-color: #F58648;
+    --secondary-color: #19293A;
+    --dark-graident: #F58648;
+    --light-gradient: #ECA028;
+    --text-secondary: #596080;
+    --secondary-bgColor: #F5F6FA;
+  
+  }
+
+
+/* ***********************View Resoirces */
+.view-resources-tittle{
+    display: flex;
+    justify-content: space-between;
+}
+.view-resources-tittle-ul{
+    display: flex;
+    list-style: none;
+    border-radius: 10px;
+  background-color: #f5f6fa !important;
+}
+.view-resources-tittle-li-active{
+    background-color: white;
+  box-shadow: 0px 3px 8px white, 0px 12px 16px rgb(0 0 0 / 4%);
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 0.8rem;
+}
+.view-resources-tittle-li{
+    opacity: 0.8;
+    cursor: pointer;
+    font-size: 0.8rem;
+    /* EBEDF5 */
+} 
+/* *************************View Resources List ************************************** */
+.view-resources-ul{
+    list-style: none;
+}
+.view-resources-ul li:hover{
+   text-decoration:underline;
+   cursor: pointer;
+}
+/* footer icon nav */
+.footer-icon-nav{
+    display: flex;
+}

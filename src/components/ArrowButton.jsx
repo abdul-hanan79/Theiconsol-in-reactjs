@@ -6,7 +6,7 @@ function ArrowButton(props) {
     return (
         <>
             <Button className='button' size={props.size}>
-                <span className="mx-4">{props.tittle}</span><i class="fa-solid fa-arrow-right "></i>
+                <span className="mx-4">{props.tittle}</span><i className="fa-solid fa-arrow-right "></i>
             </Button>
         </>
     );
