@@ -4,12 +4,12 @@ import Card from 'react-bootstrap/Card';
 function CardAddMagic(props) {
   return (
   
-          <Card className='cardb' style={{backgroundColor: props.bgcolor}}>
+          <Card className='card-add-magic'>
             <Card.Img variant="top" 
-            src={props.image} className='cardimg' />
+            src={props.image} className='card-img img-fluid mx-auto d-block'  />
             <Card.Body>
-              <Card.Title className='cardheading'>{props.title}</Card.Title>
-              <Card.Text className='carddescription' >
+              <Card.Title className='card-heading'>{props.title}</Card.Title>
+              <Card.Text className='cardd-escription' >
                {props.text}
               </Card.Text>
             </Card.Body>

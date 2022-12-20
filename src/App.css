@@ -67,21 +67,27 @@ body {
 } */
 
 /* /* /* **************Card b************* */
-.cardb {
+.card-add-magic {
   border: none;
   box-shadow: none;
+  width: 100%;
+}
+.card-add-magic .card-img{
+  width: 13rem;
+  height: 13rem;
+  /* margin: 0 auto; */
 }
 
 /* 
-****************************************** CARDC******************************* */
-.cardc {
+****************************************** CARDCREATIVE******************************* */
+.card-creative {
   border-radius: 0.625rem;
   text-align: left;
-  width: 100%;
+  /* width: 100%; */
   transition: all 0.3s ease;
 }
 
-.cardheading {
+.card-heading {
   font-size: 1rem;
   line-height: 1.5rem;
   text-overflow: ellipsis;
@@ -90,7 +96,7 @@ body {
   font-family: 'Poppins' !important;
 }
 
-.carddescription {
+.card-description {
   font-size: 0.875rem;
   line-height: 1.5rem;
   color: var(--text-secondary) !important;

@@ -18,7 +18,7 @@ export default function TrustedBrand() {
   return (
     <>
     <Container >
-      <h5 className=' trusted-brand-heading text-center mt-5'>Trusted by more than 1 million users globally</h5>
+      <h5 className=' trusted-brand-heading text-center mt-5 mb-4'>Trusted by more than 1 million users globally</h5>
       <div className='trusted-brand-logos d-flex align-items-center justify-content-center flex-wrap '>
              <img src={airbnb} alt=""  className='trusted-brand-img'/>
              <img src={netflix} alt="" className='trusted-brand-img' />

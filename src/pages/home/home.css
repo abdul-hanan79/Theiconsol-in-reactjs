@@ -52,23 +52,42 @@
     font-weight: 600;
   }
   .trusted-brand-img{
-    transition: all 2s;
+    transition: all 0.4s;
     border-radius: 10px;
     
   }
   .trusted-brand-img:hover{
-    background-color: #19293A;
-    transition: all 2s 
+    transform: scale(1.1)
+    
   }
 
   /*  *********************************Add Magic**************************************** */
- .add-magic-heading{
+ .add-magic{
+  margin-top: -50px !important;
+ }
+  .add-magic-heading,.creative-resources-heading{
   font-size: 2.60rem;
   line-height: 3.625rem;
   letter-spacing: -0.015em;
   /* font-family: inherit; */
   font-weight: 600;
  }
- .add-magic-text{
+ .add-magic-text,.creative-resources-text{
   opacity: 0.5;
  }
+.add-magic-bg-img{
+  background-position: center;
+  height: 25rem;
+  width: 100%;
+  background-image: url('../../assests/addmagic.jpg');
+}
+
+/* CREATIVE RESOURCES */
+.creative-resources-section .creative-resources-button{
+  padding: 8px 16px;
+  
+}
+.creative-resources-section .creative-resources-button .arrow-button-title{
+  font-size: 1rem;
+  font-weight: 500;
+}

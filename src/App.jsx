@@ -4,12 +4,12 @@ import './App.css';
 import './MediaQuery.css';
 import FullFooter from './pages/footer/FullFooter';
 
-import Home from './pages/home/FullHomePage';
+import HomePage from './pages/home/HomePage';
 
 function App() {
   return (
     <>
-      <Home />
+      <HomePage />
       <FullFooter/>
     </>
   );

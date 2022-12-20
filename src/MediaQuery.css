@@ -16,6 +16,16 @@
   }
  
 }
+
+@media   (max-width:900px) {
+  .add-magic-bg{
+    display: none;
+  }
+  .add-magic{
+    margin-top: 3px !important;
+   }
+
+}
 @media   (max-width:600px) {
   .dropdown-text{
     font-size: 1rem;

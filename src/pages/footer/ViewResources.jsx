@@ -25,18 +25,18 @@ export default function ViewResources() {
           </div>
         </div>
         <Row className='mt-4 mb-5'>
-          <Col md={4} xs={6} sm={6} lg={2}><ViewResourcesList   
-          lia="Merry Christmas" lib="Arrow" lic="ReoupLoad" lid="Orange Bat" lie="Emessage" /></Col>
-          <Col md={4} xs={6} sm={6} lg={2}><ViewResourcesList 
-           lia="Loader" lib="Waiting" lic="Comb" lid="Data Set" lie="Paymnet" /></Col>
-          <Col md={4} xs={6} sm={6} lg={2}><ViewResourcesList  
-          lia="Online Shopping" lib="Progress" lic="Ai" lid="Business Loan" lie="Shoopping" /></Col>
-          <Col md={4} xs={6} sm={6} lg={2}><ViewResourcesList 
-           lia="Christmas Gifts" lib="Female" lic="Green Card" lid="Business Firm" lie="Stip" /></Col>
-          <Col md={4} xs={6} sm={6} lg={2}><ViewResourcesList  
-          lia="Smartphone" lib="Gal" lic="Market" lid=" Cold Cash" lie=" Red Sun" /></Col>
-          <Col md={4} xs={6} sm={6} lg={2}><ViewResourcesList  
-          lia="Payment" lib="ThanksGiving" lic="Girl" lid=" Commnication" lie="View More" /></Col>
+          <Col md={4} xs={6} sm={6} lg={2}><ViewResourcesList
+            lia="Merry Christmas" lib="Arrow" lic="ReoupLoad" lid="Orange Bat" lie="Emessage" /></Col>
+          <Col md={4} xs={6} sm={6} lg={2}><ViewResourcesList
+            lia="Loader" lib="Waiting" lic="Comb" lid="Data Set" lie="Paymnet" /></Col>
+          <Col md={4} xs={6} sm={6} lg={2}><ViewResourcesList
+            lia="Online Shopping" lib="Progress" lic="Ai" lid="Business Loan" lie="Shoopping" /></Col>
+          <Col md={4} xs={6} sm={6} lg={2}><ViewResourcesList
+            lia="Christmas Gifts" lib="Female" lic="Green Card" lid="Business Firm" lie="Stip" /></Col>
+          <Col md={4} xs={6} sm={6} lg={2}><ViewResourcesList
+            lia="Smartphone" lib="Gal" lic="Market" lid=" Cold Cash" lie=" Red Sun" /></Col>
+          <Col md={4} xs={6} sm={6} lg={2}><ViewResourcesList
+            lia="Payment" lib="ThanksGiving" lic="Girl" lid=" Commnication" lie="View More" /></Col>
         </Row>
       </Container>
     </>
