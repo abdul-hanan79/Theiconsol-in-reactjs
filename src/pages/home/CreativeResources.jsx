@@ -40,7 +40,7 @@ function CreativeResources() {
             <div className="creative-resources-section text-center ">
               <h1 className='creative-resources-heading '>Explore billions of creative resources</h1>
               <p className='creative-resources-text px-3'>Discover our featured assets and get to know the incredibly brilliant people who created them.</p>
-              <ArrowButton title='look up featured assets' className='creative-resources-button' size='sm' />
+              <ArrowButton btntitle='look up featured assets' className='creative-resources-button' size='sm' />
             </div>
 
           </Col>

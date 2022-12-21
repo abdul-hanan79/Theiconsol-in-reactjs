@@ -1,12 +1,12 @@
 import React from 'react'
-import FooterIconNav from './FooterIconNav'
+import FooterSecond from './FooterSecond'
 import ViewResources from './ViewResources'
 
 export default function FullFooter() {
   return (
     <div>
       <ViewResources/>
-     <FooterIconNav/>
+     <FooterSecond/>
     </div>
   )
 }

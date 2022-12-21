@@ -1,18 +1,18 @@
-import Button from 'react-bootstrap/Button';
+// import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import ArrowButton from './ArrowButton';
-import img from '../../assests/cardeimg.jpg'
+import image from "../assests/cardeimg.jpg";
 
 function CardEditing(props) {
   return (
-    <Card className='Carde text-center'>
-      <Card.Img variant="top" src={img} />
+    <Card className='Card-editing text-center'>
+      <Card.Img variant="top" src={image} />
       <Card.Body>
-        <Card.Title>{props.title}</Card.Title>
-        <Card.Text className='mb-4'>
+        <Card.Title className='fw-bold'>{props.title}</Card.Title>
+        <Card.Text className='card-editing-text mb-4'>
           {props.text}
         </Card.Text>
-        <ArrowButton color='white' />
+        <ArrowButton color='white' btntitle={props.btntitle} />
       </Card.Body>
     </Card>
   );

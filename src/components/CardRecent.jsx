@@ -1,11 +1,11 @@
 
 import Card from 'react-bootstrap/Card';
-import img from '../../assests/cardeimg.jpg'
+import Img from "../assests/recentImage.jpg"
 
 function CardRecent(props) {
   return (
     <Card className='cardf'>
-      <Card.Img variant="top" src={img} />
+      <Card.Img variant="top" src={Img} />
       <Card.Body>
       <Card.Subtitle className="text-uppercase card-subtitle">{props.subTitle}</Card.Subtitle>
         <Card.Title className='card-title'>{props.title}</Card.Title>

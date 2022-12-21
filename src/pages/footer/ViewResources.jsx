@@ -7,7 +7,7 @@ export default function ViewResources() {
       <h1 className='add-magic-heading  text-center mb-5'>View resources with keywords</h1>
       <Container>
         <div className='view-resources-tittle'>
-          <ul className='view-resources-tittle-ul d-flex py-1'>
+          <ul className='view-resources-tittle-ul d-flex py-1 flex-wrap'>
             <li className='view-resources-tittle-li px-3 py-2'>3D Illustrate</li>
             <li className='view-resources-tittle-li-active  px-4 py-1'> Lottie Animation </li>
             <li className='view-resources-tittle-li px-4 py-2'>Icon</li>

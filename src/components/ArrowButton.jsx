@@ -5,8 +5,8 @@ function ArrowButton(props) {
 
     return (
         <>
-            <Button className='button creative-resources-button' size={props.size}>
-                <span className="mx-4 arrow-button-title">{props.title}</span><i className="fa-solid fa-arrow-right "></i>
+            <Button className='button arrow-button creative-resources-button' size={props.size}>
+                <span className="mx-4 arrow-button-title">{props.btntitle}</span><i className="fa-solid fa-arrow-right "></i>
             </Button>
         </>
     );

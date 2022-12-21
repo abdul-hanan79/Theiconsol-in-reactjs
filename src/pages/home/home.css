@@ -81,7 +81,17 @@
   width: 100%;
   background-image: url('../../assests/addmagic.jpg');
 }
-
+.add-magic-span::after{
+  content: '';
+  position: absolute;
+  right: 5rem;
+  bottom: 0;
+ width: 388px;
+  height: 100%;
+  background-image: url("../../assests/bluePseudoElement.svg~~");
+  background-repeat: no-repeat;
+  z-index: -1;
+}
 /* CREATIVE RESOURCES */
 .creative-resources-section .creative-resources-button{
   padding: 8px 16px;
@@ -90,4 +100,20 @@
 .creative-resources-section .creative-resources-button .arrow-button-title{
   font-size: 1rem;
   font-weight: 500;
+}
+/* creatineResources****************************************** */
+.editing-span{
+  position: absolute;
+  top: 0;
+  left: -10px;
+  width: 224px;
+  height: 100%;
+  background-image: url(https://cdna.iconscout.com/img/vector-yellow.526846a.svg);
+  background-repeat: no-repeat;
+  z-index: -1; 
+}
+/* Artist**************************************** */
+.artist-main{
+  background: linear-gradient(to bottom, var(--dark-graident) , var(--light-gradient)) ; 
+   border-radius: 1rem;
 }

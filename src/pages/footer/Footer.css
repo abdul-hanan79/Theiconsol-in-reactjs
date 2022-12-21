@@ -44,6 +44,17 @@
    cursor: pointer;
 }
 /* footer icon nav */
-.footer-icon-nav{
+.footer-second-main{
+  background-color: #EBEDF5;
+}
+.footer-second{
     display: flex;
+    justify-content: space-between;
+}
+.footer-second h1{
+  font-weight: 600;
+}
+/* *************************footer second*********************************** */
+.footer-second-first-row{
+  padding: 2rem;
 }
