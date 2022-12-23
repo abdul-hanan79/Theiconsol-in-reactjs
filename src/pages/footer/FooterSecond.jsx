@@ -1,9 +1,14 @@
 import React from 'react'
 import { Row, Container, Col } from 'react-bootstrap'
+import { useLocation, useParams } from 'react-router-dom';
 import FooterSecondList from './FooterSecondList';
 // import ViewResourcesList from './ViewResourcesList';
 
-export default function FooterIconNav() {
+export default function FooterIconNav(props) {
+    const type =useParams();
+    const pramsvalue =useLocation.state.pathname
+    console.log("prams " + type)
+    console.log("prams value" + pramsvalue)
     return (
         <>
             <div className='footer-second-main '>
