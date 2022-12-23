@@ -6,7 +6,7 @@ import cardCreativeImg from '../../assests/cardCreativeImg.png'
 
 function CreativeResources() {
   return (
-    <div className='creative-resources'>
+    <div className='creative-resources mt-5'>
       <Container >
         {/* ROW 1 */}
         <Row className='mb-5' >
