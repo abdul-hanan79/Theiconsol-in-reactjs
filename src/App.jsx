@@ -9,6 +9,7 @@ import HomePage from './pages/home/HomePage';
 import NotFound from './pages/NotFound';
 // import Navbar from "./components/Navbar"
 import Layout from './components/Layout';
+import FooterSecondList from './pages/footer/FooterSecondList';
 
 
 function App() {
@@ -21,14 +22,14 @@ function App() {
             <Route path="/" element={<Layout/>}>
             <Route index element={<HomePage/>}/>
             <Route path="*" element={<NotFound/> }/>
-            <Route path="/footer" element={ <FullFooter />}/>
+            <Route path="/footer/:id" element={ <FooterSecondList />}/>
 
             </Route>
            </Routes>
 
       </BrowserRouter>
 {/* */}
-<FullFooter />
+
     </>
   );
 }

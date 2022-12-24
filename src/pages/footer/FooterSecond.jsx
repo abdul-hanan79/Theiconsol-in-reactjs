@@ -4,15 +4,11 @@ import { useLocation, useParams } from 'react-router-dom';
 import FooterSecondList from './FooterSecondList';
 // import ViewResourcesList from './ViewResourcesList';
 
-export default function FooterIconNav(props) {
-    const type =useParams();
-    const pramsvalue =useLocation.state.pathname
-    console.log("prams " + type)
-    console.log("prams value" + pramsvalue)
+export default function FooterIconNav() {
     return (
         <>
             <div className='footer-second-main '>
-                <Container >
+                <div class="overflow-hidden" >
                     <Row className='footer-second-first-row'>
                         {/* logo <img src="" alt="" /> */}
                         <div className='footer-second'>
@@ -22,23 +18,43 @@ export default function FooterIconNav(props) {
                     </Row>
                     <Row>
                         <Col md={4} xs={6} sm={6} lg={2}><FooterSecondList
-                            address="lia"
                             lih="Graphic Resources"
-                            lia="Free icon" lib="Arrow" lic="ReoupLoad" lid="Orange Bat" lie="Emessage" /></Col>
-                        <Col md={4} xs={6} sm={6} lg={2}><FooterSecondList lih="Product"
-                            address="lia"
-                            lia="Free Emoji icon" lib="Arrow" lic="ReoupLoad" lid="Orange Bat" lie="Emessage" /></Col>
-                        <Col md={4} xs={6} sm={6} lg={2}><FooterSecondList lih="Company"
-                            address="lia"
-                            lia="Free logo icon" lib="Arrow" lic="ReoupLoad" lid="Orange Bat" lie="Emessage" /></Col>
-                        <Col md={4} xs={6} sm={6} lg={2}><FooterSecondList lih="Legal"
-                            address="lia"
-                            lia="Merry Christmas" lib="Arrow" lic="ReoupLoad" lid="Orange Bat" lie="Emessage" /></Col>
-                        <Col md={4} xs={6} sm={6} lg={4}><FooterSecondList lih="Get Theiconsole For d  esktop"
-                            address="lia"
-                            lia="Merry Christmas" lib="Arrow" lic="ReoupLoad" lid="Orange Bat" lie="Emessage" /></Col>
+                            lia="Free icon"
+                            lib="Free Logo Icons"
+                            lic="iOS Icons"
+                            lid="Sticker Icons"
+                            lie="Gradient Icons" 
+                            lif="Calendar of festivities"  
+                            lig="Free Assets of The Day" /></Col>
+                        <Col md={4} xs={6} sm={6} lg={2}><FooterSecondList
+                            lih="Product"
+                            lia="Unicons Icons Font "
+                            lib="Color editor"
+                            lic="Apps & Plugins "
+                            lid="Hire Designers"
+                            lie="IconScout API" /></Col>
+                        <Col md={4} xs={6} sm={6} lg={2}><FooterSecondList
+                            lih="Company"
+                            lia="  Blog"
+                            lib="Tutorials"
+                            lic=" About"
+                            lid="All Featurest"
+                            lie="Sell on IconScout"
+                            lif="Startup Program"
+                            lig="We,are hearing" /></Col>
+                        <Col md={4} xs={6} sm={6} lg={2}><FooterSecondList
+                            lih="Legal"
+                            lia="Terms of Use"
+                            lib=" Privacy Policy"
+                            lic="License Agreement"
+                            lid=" Contributor Terms"
+                            lie=" Support Center" 
+                            lif="  Join Discord" /></Col>
+                        <Col md={4} xs={6} sm={6} lg={4}><FooterSecondList
+                            lih="Get Theiconsole For d  esktop"
+                            lia="Merry Christmas"/></Col>
                     </Row>
-                </Container>
+                </div>
             </div>
         </>
     )

@@ -36,12 +36,18 @@
     /* EBEDF5 */
 } 
 /* *************************View Resources List ************************************** */
-.view-resources-ul{
+.view-resources-ul {
     list-style: none;
 }
-.view-resources-ul li:hover{
+.view-resources-ul li a{
+  font-size: 0.85rem;
+ text-decoration: none ;
+ color:var(--text-secondary) ;
+}
+.view-resources-ul li a:hover{
    text-decoration:underline;
    cursor: pointer;
+   color: #19293A;
 }
 /* footer icon nav */
 .footer-second-main{
