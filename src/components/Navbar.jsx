@@ -3,38 +3,51 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import { Link } from 'react-router-dom';
+import Button from 'react-bootstrap/Button'
+
+import Form from 'react-bootstrap/Form';
+
+
+
+
 
 function MainNavbar(props) {
   return (
-    <Navbar bg="light" expand="lg">
-      <Container>
-        {/* <Navbar.Brand > */}
-            {/* <Link to='/'>React-Bootstrap</Link>
-             */}
-             <Link to='/'>Home Page</Link>
-            {/* </Navbar.Brand> */}
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto">
-            {/* <Nav href="#home"><Link></Link>Home</Nav> */}
-            <Link to="/abd">Got to somewhere</Link>
-            <Nav.Link href="#link">Link</Nav.Link>
-            <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">
-                Another action
-              </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.4">
-                Separated link
-              </NavDropdown.Item>
-            </NavDropdown>
+
+    <Navbar expand="lg" className="navbar-div" sticky="top">
+      <Container fluid>
+        <Navbar.Brand href="#" className='ms-5 nav-brand'>Theiconsol</Navbar.Brand>
+        <Navbar.Toggle aria-controls="navbarScroll" />
+        <Navbar.Collapse id="navbarScroll" >
+
+          <Nav
+            // className="me-auto  nav-body bg-dark my-2 my-lg-0"
+            className="nav-link-container w-100  justify-content-between" navbarScroll>
+
+            <div className='d-flex w-75 align-items-center  justify-content-center'>
+              <Nav.Link   >
+                <Link to='/3dillustration' className='nav-link'>3D Illustration</Link>
+              </Nav.Link>
+              <Nav.Link >
+                <Link to='/vectoricon' className='nav-link'>Vector Icon</Link>
+              </Nav.Link>
+            </div>
+            {/* <Form className="d-flex">
+            <Form.Control
+              type="search"
+              placeholder="Search"
+              className="me-2"
+              aria-label="Search"
+              />
+            </Form> */}
+            <div className="user">
+              <Button className='login nav-btn'>Login</Button>
+              <Button className='signup nav-btn'>Signup</Button>
+            </div>
           </Nav>
         </Navbar.Collapse>
       </Container>
     </Navbar>
   );
 }
-
 export default MainNavbar;
