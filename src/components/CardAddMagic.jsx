@@ -9,7 +9,7 @@ function CardAddMagic(props) {
             src={props.image} className='card-img img-fluid mx-auto d-block'  />
             <Card.Body>
               <Card.Title className='card-heading'>{props.title}</Card.Title>
-              <Card.Text className='cardd-escription' >
+              <Card.Text className='card-description' >
                {props.text}
               </Card.Text>
             </Card.Body>

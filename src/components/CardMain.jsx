@@ -7,8 +7,8 @@ function CardMain(props) {
 <>
     <Card className='card-main ' style={{backgroundColor: props.bgColor}}>
       <Card.Body className='card-main-body'>
-        <Card.Title>{props.title}</Card.Title>
-        <Card.Text >
+        <Card.Title className=''>{props.title}</Card.Title>
+        <Card.Text  className='card-description'>
           {props.text}
         </Card.Text>
       </Card.Body>

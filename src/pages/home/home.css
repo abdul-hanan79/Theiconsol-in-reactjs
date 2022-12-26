@@ -62,6 +62,10 @@
   }
 
   /*  *********************************Add Magic**************************************** */
+  .creative-resources{
+    padding: 4rem 1rem;
+    background-color: var(--secondary-bgColor) !important;
+  }
  .add-magic{
   margin-top: -50px !important;
  }

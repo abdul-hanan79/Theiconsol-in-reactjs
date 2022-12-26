@@ -16,7 +16,9 @@ function MainNavbar(props) {
 
     <Navbar expand="lg" className="navbar-div" sticky="top">
       <Container fluid>
-        <Navbar.Brand href="#" className='ms-5 nav-brand'>Theiconsol</Navbar.Brand>
+        <Navbar.Brand href="#" className='ms-5'>
+          <Link to='/'  className='nav-brand'>Theiconsol</Link>
+          </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll" >
 
@@ -41,8 +43,8 @@ function MainNavbar(props) {
               />
             </Form> */}
             <div className="user">
-              <Button className='login nav-btn'>Login</Button>
-              <Button className='signup nav-btn'>Signup</Button>
+              <Button className='login nav-btn'><Link to='/login' className='nav-btn-link login-link'>Login</Link></Button>
+              <Button className='signup nav-btn'><Link to='/signup' className='nav-btn-link signup-link' >Signup</Link></Button>
             </div>
           </Nav>
         </Navbar.Collapse>

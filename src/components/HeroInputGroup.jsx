@@ -27,7 +27,7 @@ function HeroInputGroup() {
                 </InputGroup>
             </div>
             <div className='trending d-flex justify-content-center gap-3 mt-3 lh-sm flex-wrap'>
-                <span className='trending-title font-weight-bold '>Trending:</span>
+                <span className='trending-title'>Trending:</span>
                 <ul className='trending-list mb-0 list-inline d-flex gap-2 text-center flex-wrap justify-content-center'>
 
                     {/* <li ><Link className='trending-list-item' to='#'>Christmas</Link>,</li>
