@@ -18,17 +18,17 @@ function App() {
 
 
       <BrowserRouter>
-           <Routes>
-            <Route path="/" element={<Layout/>}>
-            <Route index element={<HomePage/>}/>
-            <Route path="*" element={<NotFound/> }/>
-            <Route path="/footer/:id" element={ <FooterSecondList />}/>
+        <Routes>
+          <Route path="/" element={<Layout />}>
+            <Route index element={<HomePage />} />
+            <Route path="*" element={<NotFound />} />
+            <Route path="footer" element={<FooterSecondList />} />
 
-            </Route>
-           </Routes>
+          </Route>
+        </Routes>
 
       </BrowserRouter>
-{/* */}
+      {/* */}
 
     </>
   );

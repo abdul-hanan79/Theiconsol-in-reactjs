@@ -63,4 +63,5 @@
 /* *************************footer second*********************************** */
 .footer-second-first-row{
   padding: 2rem;
+  border-bottom: 1px dashed gainsboro ;
 }

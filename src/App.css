@@ -28,9 +28,17 @@ body {
   font-family: 'Poppins', sons-serif !important;
 }
 
+.card-link,
+.btn-link {
+  text-decoration: none !important;
+  color: inherit;
+}
+
 /* *************NAVBAR************** */
 .navbar-div {
   background-color: white;
+  box-shadow: 0 6px 3px rgb(0 0 0 / 8%), 0 4px 8px rgb(0 0 0 / 4%);
+
 }
 
 .nav-brand {
@@ -145,6 +153,35 @@ body {
   border: 1px solid var(--secondary-color);
 }
 
+/* *************ALL CARDS HEADING AND DESCRIPOTION******************** */
+.card-heading {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  font-family: 'Poppins' !important;
+}
+
+.card-link .hero-card-heading {
+  color: var(--secondary-color);
+  font-size: 1.3rem;
+  /* text-decoration: none !important; */
+
+}
+
+.card-description {
+  font-size: 0.875rem;
+  line-height: 1.5rem;
+  color: var(--text-secondary) !important;
+}
+
+.card-link .hero-card-description {
+  color: var(--text-secondary) !important;
+
+}
+
+/* ***************CARD MAIN***************** */
 .card-main-img {
   position: absolute;
   bottom: 0;
@@ -178,7 +215,7 @@ body {
     padding: 1.75rem;
 } */
 
-/* /* /* **************Card b************* */
+/*  **************Card b************* */
 .card-add-magic {
   border: none;
   box-shadow: none;
@@ -199,7 +236,7 @@ body {
   /* width: 100%; */
   transition: all 0.3s ease;
   /* --secondary-bgColor: #F5F6FA; */
-  
+
 }
 
 .card-creative:hover {
@@ -211,20 +248,6 @@ body {
   border-radius: 10px;
 }
 
-.card-heading {
-  font-size: 1rem;
-  line-height: 1.5rem;
-  text-overflow: ellipsis;
-  overflow: hidden;
-  white-space: nowrap;
-  font-family: 'Poppins' !important;
-}
-
-.card-description {
-  font-size: 0.875rem;
-  line-height: 1.5rem;
-  color: var(--text-secondary) !important;
-}
 
 /* ******************************* */
 .card-div {
@@ -298,12 +321,22 @@ body {
   padding: 0.75rem;
   width: calc(2px + 3.25rem);
   height: calc(2px + 3.25rem);
+  z-index: 9 !important;
 }
 
 .hero-search-btn:hover {
   background-color: var(--light-gradient);
 }
-
+.hero-input:focus{
+  /* border: 2323px solid var(--primary-color) !important; */
+  
+  border-radius: 3rem !important;
+  background-color: yellow;
+}
+/* .hero-input{
+  background-color: yellow;
+  border: 1px solid red !important;
+} */
 .hero-input-group-dropdown {
   background-color: #f5f6fa !important;
   padding: 0.9rem;

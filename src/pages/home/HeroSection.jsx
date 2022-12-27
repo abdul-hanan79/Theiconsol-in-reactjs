@@ -1,10 +1,9 @@
 
-
 import React from 'react'
-import {Container, Row , Col} from 'react-bootstrap';
+import { Container, Row, Col } from 'react-bootstrap';
 import CardMain from '../../components/CardMain'
 import HomeInputGroup from "../../components/HeroInputGroup"
-
+import { Link } from 'react-router-dom';
 function HeroSection() {
   return (
     <>
@@ -33,14 +32,29 @@ function HeroSection() {
       <section className='card-section  '>
         <Container >
           <Row >
-            <Col md={6} sm={6} lg={3} xs={12} className="mb-4"><CardMain title='3D Illustrations'
-              text='118,300 + 3d Contents in 3D with input file' bgColor='#DAFEEA ' /></Col>
-            <Col md={6} sm={6} lg={3} xs={12} className="mb-4"><CardMain title='Lottie Animations'
-              text='79,000+ Mini Animations, Both Free and Paid' bgColor='#EEF8F9' /></Col>
-            <Col md={6} sm={6} lg={3} xs={12} className="mb-4"><CardMain title='Illustrations'
-              text='152,000+ vector illustration colour editing software' bgColor='#FCF2F2' /></Col>
-            <Col md={6} sm={6} lg={3} xs={12} className="mb-4"><CardMain title='Vector Icons'
-              text='4.9 million plus vector icons, colour editor' bgColor='#FFE5EE' /></Col>
+            <Col md={6} sm={6} lg={3} xs={12} className="mb-4">
+
+              <Link to='/3dIllustration' className='card-link'>
+                <CardMain title='3D Illustrations'
+                  text='118,300 + 3d Contents in 3D with input file' bgColor='#DAFEEA ' />
+              </Link></Col>
+            <Col md={6} sm={6} lg={3} xs={12} className="mb-4">
+              <Link to='/vectorIcons' className='card-link'>
+                <CardMain title='Vector Icons'
+                  text='4.9 million plus vector icons, colour editor' bgColor='#FFE5EE' />
+              </Link>
+            </Col>
+            <Col md={6} sm={6} lg={3} xs={12} className="mb-4">
+              <Link to='/lottieAnimation' className='card-link'>
+                <CardMain title='Lottie Animations'
+                  blur="2px" text='Comming Soon....' bgColor='#EEF8F9' />
+              </Link></Col>
+            <Col md={6} sm={6} lg={3} xs={12} className="mb-4">
+              <Link to='/illustration' className='card-link'>
+                <CardMain title='Illustrations'  blur="2px"
+                  text='Comming Soon....' bgColor='#FCF2F2' />
+              </Link></Col>
+
           </Row>
         </Container>
       </section>

@@ -1,112 +1,131 @@
 :root {
-    --primary-color: #F58648;
-    --secondary-color: #19293A;
-    --dark-graident: #F58648;
-    --light-gradient: #ECA028;
-    --text-secondary: #596080;
-    --secondary-bgColor: #F5F6FA;
-  
-  }
+  --primary-color: #F58648;
+  --secondary-color: #19293A;
+  --dark-graident: #F58648;
+  --light-gradient: #ECA028;
+  --text-secondary: #596080;
+  --secondary-bgColor: #F5F6FA;
+
+}
 
 /* ************************HEROSECTION ***************** */
-.hero{
-    background: linear-gradient(to bottom, var(--dark-graident) , var(--light-gradient)) ; 
+.hero {
+  background: linear-gradient(to bottom, var(--dark-graident), var(--light-gradient));
 }
-.hero-section-main{
-    height: 100%;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    flex-direction: column;
-    color: white;
-    padding-top: 7rem;
-    padding-bottom: 2rem;
-    text-align: center;
-  }
-  .hero-section-main h1{
-      font-size: 3rem;
-      line-height: 3.625rem;
-      color: white;
-      letter-spacing: -0.015rem;
-  }
-  .hero-section-main p{
-    opacity: 0.75;
-  }
-  .hero-section-main-p1{
-    margin-bottom: -1px;
-  }
- /* .hero-main-div{position: relative;} */
-  .card-section .container .row{
-   margin-top: -10.063rem;
-  }
-  .hero{
-    padding-bottom: 18%;
-  }
-  /* ***************************Trusting Brand ********************************* */
-  .trusted-brand-logos{
-    gap:30px
-  }
-  /* turesting brand hrading */
-  .trusted-brand-heading{
-    font-size: 1rem;
-    font-weight: 600;
-  }
-  .trusted-brand-img{
-    transition: all 0.4s;
-    border-radius: 10px;
-    
-  }
-  .trusted-brand-img:hover{
-    transform: scale(1.1)
-    
-  }
 
-  /*  *********************************Add Magic**************************************** */
-  .creative-resources{
-    padding: 4rem 1rem;
-    background-color: var(--secondary-bgColor) !important;
-  }
- .add-magic{
+.hero-section-main {
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  padding-top: 7rem;
+  padding-bottom: 2rem;
+  text-align: center;
+}
+
+.hero-section-main h1 {
+  font-size: 3rem;
+  line-height: 3.625rem;
+  color: white;
+  letter-spacing: -0.015rem;
+}
+
+.hero-section-main p {
+  opacity: 0.75;
+}
+
+.hero-section-main-p1 {
+  margin-bottom: -1px;
+}
+
+/* .hero-main-div{position: relative;} */
+.card-section .container .row {
+  margin-top: -10.063rem;
+}
+
+.hero {
+  padding-bottom: 18%;
+}
+
+/* ***************************Trusting Brand ********************************* */
+.trusted-brand-logos {
+  gap: 30px
+}
+
+/* turesting brand hrading */
+.trusted-brand-heading {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.trusted-brand-img {
+  transition: all 0.4s;
+  border-radius: 10px;
+
+}
+
+.trusted-brand-img:hover {
+  transform: scale(1.1)
+}
+
+/*  *********************************Add Magic**************************************** */
+.creative-resources {
+  padding: 4rem 0rem;
+  background-color: var(--secondary-bgColor) !important;
+}
+
+.add-magic {
   margin-top: -50px !important;
- }
-  .add-magic-heading,.creative-resources-heading{
+}
+
+.add-magic-heading,
+.creative-resources-heading {
   font-size: 2.60rem;
   line-height: 3.625rem;
   letter-spacing: -0.015em;
   /* font-family: inherit; */
   font-weight: 600;
- }
- .add-magic-text,.creative-resources-text{
+}
+
+.add-magic-text,
+.creative-resources-text {
   opacity: 0.5;
- }
-.add-magic-bg-img{
+}
+
+.add-magic-bg-img {
   background-position: center;
   height: 25rem;
   width: 100%;
   background-image: url('../../assests/addmagic.jpg');
 }
-.add-magic-span::after{
+
+.add-magic-span::after {
   content: '';
   position: absolute;
   right: 5rem;
   bottom: 0;
- width: 388px;
+  width: 388px;
   height: 100%;
   background-image: url("../../assests/bluePseudoElement.svg~~");
   background-repeat: no-repeat;
   z-index: -1;
 }
+
 /* CREATIVE RESOURCES */
-.creative-resources-section .creative-resources-button{
+.creative-resources-section .creative-resources-button {
   padding: 8px 16px;
-  
+
 }
-.creative-resources-section .creative-resources-button .arrow-button-title{
+
+.creative-resources-section .creative-resources-button .arrow-button-title {
   font-size: 1rem;
   font-weight: 500;
 }
+
 /* creatineResources****************************************** */
-.editing-span{
+.editing-span {
   position: absolute;
   top: 0;
   left: -10px;
@@ -114,10 +133,21 @@
   height: 100%;
   background-image: url(https://cdna.iconscout.com/img/vector-yellow.526846a.svg);
   background-repeat: no-repeat;
-  z-index: -1; 
+  z-index: -1;
 }
+
 /* Artist**************************************** */
-.artist-main{
-  background: linear-gradient(to bottom, var(--dark-graident) , var(--light-gradient)) ; 
-   border-radius: 1rem;
+
+.artist-main {
+  background: linear-gradient(to bottom, var(--dark-graident), var(--light-gradient));
+  border-radius: 1rem;
+}
+
+.btn-artist {
+  transition: all 0.5s;
+}
+
+.btn-artist:hover {
+  transform: translateY(-0.3rem);
+
 }

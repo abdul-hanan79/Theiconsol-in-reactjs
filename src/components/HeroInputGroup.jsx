@@ -23,7 +23,7 @@ function HeroInputGroup() {
 
                     <Form.Control aria-label="Text input with 2 dropdown buttons" className='hero-input'
                         placeholder='Browse through 5,663,871 Contents' />
-                    <HeroSearchBtn />
+                    <HeroSearchBtn  />
                 </InputGroup>
             </div>
             <div className='trending d-flex justify-content-center gap-3 mt-3 lh-sm flex-wrap'>
