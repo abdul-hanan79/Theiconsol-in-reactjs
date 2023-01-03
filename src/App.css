@@ -52,12 +52,41 @@ body {
   color: var(--primary-color);
 }
 
-.nav-link {
+.nav-toggler {
+
+  /* font-size: var(--bs-navbar-toggler-font-size);
+  line-height: 1;
+  color: var(--bs-navbar-color);
+  background-color: transparent; */
+
+  border-radius: 50px !important;
+
+}
+
+.nav-toggler:hover {
+  background-color: var(--secondary-bgColor);
+}
+
+.nav-toggler:focus {
+  box-shadow: 0 0 4px 1px var(--light-gradient) !important;
+  /* background-color: white; */
+}
+
+.navbar-collapse {
+  transform: all 3s;
+  flex-basis: 100%;
+  flex-grow: 1;
+  transform: translate(10px, 10px);
+}
+
+.navbar-link {
 
   font-size: 1.1rem;
   font-weight: 600;
   line-height: 1.5rem;
   color: var(--secondary-color);
+  text-decoration: none;
+  
 
   cursor: pointer;
 
@@ -66,11 +95,11 @@ body {
   /* font-family: 'Poppins' !important; */
 }
 
-.nav-link:hover {
+.navbar-link:hover {
   color: var(--primary-color);
 }
 
-/* .nav-link-container{
+/* .navbar-link-container{
   width: 56rem !important;
 } */
 .user .nav-btn {
@@ -250,7 +279,7 @@ body {
 
 
 /* ******************************* */
-.card-div {
+/* .card-div {
   padding: 0.625rem;
 }
 
@@ -263,14 +292,14 @@ body {
   flex-direction: column;
   padding: 0.625rem;
   /* position: relative; */
-  /* border: 0.16rem red solid; */
+/* border: 0.16rem red solid; 
 }
 
 .cardd .card-body {
   flex: 0 1 auto !important;
 }
 
-
+ */
 /* ******************** Carde********************* */
 
 .Card-editing {
@@ -291,10 +320,10 @@ body {
 }
 
 /* ******************** Cardf********************* */
-.cardf {
+/* .cardf {
   border: none;
 }
-
+nav-toggler
 .card-subtitle {
   font-size: 0.688rem;
   color: var(--primary-color);
@@ -310,7 +339,7 @@ body {
 .cardf .card-text {
   color: var(--text-secondary);
   font-size: 0.875rem;
-}
+} */
 
 /*************************** Hero Input Group***************************************************** */
 .hero-search-btn {
@@ -327,12 +356,16 @@ body {
 .hero-search-btn:hover {
   background-color: var(--light-gradient);
 }
-.hero-input:focus{
+
+.hero-input:focus {
   /* border: 2323px solid var(--primary-color) !important; */
-  
-  border-radius: 3rem !important;
-  background-color: yellow;
+
+  /* border-radius: 9rem !important;
+  background-color: yellow; */
+  /* padding: 0 !important; */
+  box-shadow: 0 0 39px 2px var(--light-gradient);
 }
+
 /* .hero-input{
   background-color: yellow;
   border: 1px solid red !important;

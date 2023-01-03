@@ -19,8 +19,8 @@ function MainNavbar(props) {
         <Navbar.Brand href="#" className='ms-5'>
           <Link to='/'  className='nav-brand'>Theiconsol</Link>
           </Navbar.Brand>
-        <Navbar.Toggle aria-controls="navbarScroll" />
-        <Navbar.Collapse id="navbarScroll" >
+        <Navbar.Toggle aria-controls="navbarScroll" className='nav-toggler' />
+        <Navbar.Collapse id="navbarScroll" className='navbar-collapse' >
 
           <Nav
             // className="me-auto  nav-body bg-dark my-2 my-lg-0"
@@ -28,20 +28,13 @@ function MainNavbar(props) {
 
             <div className='d-flex w-75 align-items-center  justify-content-center'>
               <Nav.Link   >
-                <Link to='/3dillustration' className='nav-link'>3D Illustration</Link>
+                <Link to='/3dillustration' className='navbar-link'>3D Illustration</Link>
               </Nav.Link>
               <Nav.Link >
-                <Link to='/vectoricon' className='nav-link'>Vector Icon</Link>
+                <Link to='/vectoricon' className='navbar-link'>Vector Icon</Link>
               </Nav.Link>
             </div>
-            {/* <Form className="d-flex">
-            <Form.Control
-              type="search"
-              placeholder="Search"
-              className="me-2"
-              aria-label="Search"
-              />
-            </Form> */}
+           
             <div className="user">
               <Button className='login nav-btn'><Link to='/login' className='nav-btn-link login-link'>Login</Link></Button>
               <Button className='signup nav-btn'><Link to='/signup' className='nav-btn-link signup-link' >Signup</Link></Button>

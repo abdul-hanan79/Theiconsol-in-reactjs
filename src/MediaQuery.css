@@ -25,6 +25,10 @@
 }
 
 @media (max-width:900px) {
+  
+  .add-magic-heading,.creative-resources-heading {
+    font-size: 1.9rem;
+  }
   .add-magic-bg {
     display: none;
   }
@@ -35,7 +39,23 @@
 
 }
 
+@media (max-width:780px) {
+  .hero-section-main h1 {
+    font-size: 2.6rem;
+  }
+
+  .add-magic-heading,.creative-resources-heading {
+    font-size: 1.9rem;
+    line-height: 1.9rem;
+  }
+
+}
+
 @media (max-width:600px) {
+  .hero-section-main h1 {
+    font-size: 2.1rem;
+  }
+
   .dropdown-text {
     font-size: 1rem;
   }
