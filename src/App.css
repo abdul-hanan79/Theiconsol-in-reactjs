@@ -38,9 +38,7 @@ body {
 .navbar-div {
   background-color: white;
   box-shadow: 0 6px 3px rgb(0 0 0 / 8%), 0 4px 8px rgb(0 0 0 / 4%);
-
 }
-
 .nav-brand {
   font-size: 2rem;
   font-weight: 800;
@@ -53,31 +51,19 @@ body {
 }
 
 .nav-link {
-
   font-size: 1.1rem;
   font-weight: 600;
   line-height: 1.5rem;
   color: var(--secondary-color);
-
   cursor: pointer;
-
-
-  /* color: black; */
-  /* font-family: 'Poppins' !important; */
 }
-
 .nav-link:hover {
   color: var(--primary-color);
 }
-
-/* .nav-link-container{
-  width: 56rem !important;
-} */
 .user .nav-btn {
   border-radius: 2.2rem;
   margin: 5px;
   font-size: 1.1rem;
-
   padding: 10px 18px;
   font-weight: 500;
   transition: all 0.5s;
@@ -87,21 +73,15 @@ body {
   color: white;
   text-decoration: none;
 }
-
 .signup-link {
   color: white;
 }
-
 .user .signup {
-  /* background-color: var(--secondary-color); */
   background: linear-gradient(to bottom, var(--secondary-color), #264463);
   border: 1px solid var(--secondary-color);
-
 }
-
 .user .signup:hover {
   background: linear-gradient(to bottom, var(--dark-graident), var(--light-gradient));
-
   transform: translateY(-0.3rem);
   border: 1px solid var(--primary-color);
 }
@@ -109,23 +89,15 @@ body {
 .user .signup:hover .signup-link:hover {
   color: white;
 }
-
 .user .login {
-  /* background-color: var(--primary-color); */
-  /* background-color: var(--primary-color); */
   background: white;
-
   border: 1px solid var(--primary-color);
-
 }
-
 .login-link {
   color: var(--secondary-color);
 }
-
 .user .login:hover {
   background: linear-gradient(to bottom, var(--secondary-color), #264463);
-
   border: 1px solid var(--secondary-color);
   transform: translateY(-0.3rem);
   color: white;
@@ -135,7 +107,7 @@ body {
 
   color: white;
 }
-
+/* button css */
 .button {
   background-color: var(--secondary-color);
   transition: all 0.4s;
