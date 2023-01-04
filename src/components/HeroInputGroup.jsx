@@ -8,8 +8,8 @@ function HeroInputGroup() {
     return (
         <>
 
-            <div className="input-group">
-                <InputGroup className='hero-input-group p-2  bg-white '>
+            <div className="input-group ">
+                <InputGroup className='hero-input-group  bg-white '>
                     <div className="dropdown">
                         <button className=" dropdown-toggle hero-input-group-dropdown" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                             <span className='dropdown-text mr-5'> All Contents</span>

@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
 :root {
   --primary-color: #F58648;
   --secondary-color: #19293A;
@@ -7,6 +8,7 @@
   --text-secondary: #596080;
   --secondary-bgColor: #F5F6FA;
 }
+
 /* navbar header */
 /* /* /* **************Card************* */
 * {
@@ -14,14 +16,17 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
   font-family: 'Poppins', sons-serif !important;
 }
+
 .card-link,
 .btn-link {
   text-decoration: none !important;
   color: inherit;
 }
+
 /* *************NAVBAR************** */
 nav {
   top: 0;
@@ -29,24 +34,29 @@ nav {
   padding-top: .5rem;
   padding-bottom: .5rem;
 }
+
 /* .navbar-content {
   border: 2px solid black;
 } */
 nav .navbar-collapse.collapse {
   display: block;
 }
+
 nav .navbar-collapse {
   transition: .6s all ease-in-out;
   height: 0 !important;
 }
+
 .navbar {
   position: sticky;
   background-color: white;
   z-index: 1;
 }
+
 .nav-item {
   margin-right: 1rem;
 }
+
 /* .navbar-div {
   background-color: white;
   box-shadow: 0 6px 3px rgb(0 0 0 / 8%), 0 4px 8px rgb(0 0 0 / 4%);
@@ -57,26 +67,35 @@ nav .navbar-collapse {
   color: var(--secondary-color);
   text-decoration: none;
 }
+
 .nav-brand:hover {
   color: var(--primary-color);
 }
+
 .navbar-toggler {
-  border: 0.1px solid var(--dark-graident);
-  border-radius: 50px !important;
-  color: var(--dark-graident);
+  border: 2px solid var(--secondary-color);
+  background-color: white;
+  /* border: 0.1px solid var(--secondary-color); */
+  /* border-radius: 50px !important; */
+  color: var(--secondary-color) !important;
+
 }
+
 .navbar-toggler:hover {
-  background-color: var(--secondary-bgColor);
+  /* background-color: var(--secondary-bgColor); */
 }
+
 .navbar-toggler:focus {
-  box-shadow: 0 0 4px 1px var(--light-gradient) !important;
+  box-shadow: none;
 }
+
 .navbar-collapse {
   transform: all 3s;
   flex-basis: 100%;
   flex-grow: 1;
   transform: translate(10px, 10px);
 }
+
 .navbar-link {
   font-size: 1.1rem;
   font-weight: 600;
@@ -85,9 +104,11 @@ nav .navbar-collapse {
   text-decoration: none;
   cursor: pointer;
 }
+
 .navbar-link:hover {
   color: var(--primary-color);
 }
+
 .user .nav-btn {
   border-radius: 2.2rem;
   margin: 5px;
@@ -96,57 +117,70 @@ nav .navbar-collapse {
   font-weight: 500;
   transition: all 0.5s;
 }
+
 .nav-btn-link {
   color: white;
   text-decoration: none;
 }
+
 /* *****************************Sign up button******************************************* */
 .signup-link {
   color: white;
 }
+
 .user .signup {
   background: linear-gradient(to bottom, var(--secondary-color), #264463);
   border: 1px solid var(--secondary-color);
 }
+
 .user .signup:hover {
   background: linear-gradient(to bottom, var(--dark-graident), var(--light-gradient));
   transform: translateY(-0.3rem);
   border: 1px solid var(--primary-color);
 }
-.user  .signup:hover .signup-link:hover {
+
+.user .signup:hover .signup-link:hover {
   color: white;
 }
+
 /* ***********************Login button *************************** */
 .user .login {
   background: white;
   border: 1px solid var(--primary-color);
 }
+
 .login-link {
   color: var(--secondary-color);
 }
+
 .user .login:hover {
   background: linear-gradient(to bottom, var(--secondary-color), #264463);
   border: 1px solid var(--secondary-color);
   transform: translateY(-0.3rem);
   color: white;
 }
+
 .user .login:hover .login-link {
   color: white;
 }
+
 /* ************************ Button page css ****************************** */
 .button {
   background-color: var(--secondary-color);
   transition: all 0.4s;
   border: 1px solid var(--secondary-color);
 }
+
 .button:hover {
   background-color: var(--primary-color);
   transform: translateY(-0.3rem);
   border: 1px solid var(--primary-color);
 }
+
 .arrow-button {
   border: 1px solid var(--secondary-color);
 }
+
 /* *************ALL CARDS HEADING AND DESCRIPOTION******************** */
 .card-heading {
   font-size: 1rem;
@@ -156,18 +190,22 @@ nav .navbar-collapse {
   white-space: nowrap;
   font-family: 'Poppins' !important;
 }
+
 .card-link .hero-card-heading {
   color: var(--secondary-color);
   font-size: 1.3rem;
 }
+
 .card-description {
   font-size: 0.875rem;
   line-height: 1.5rem;
   color: var(--text-secondary) !important;
 }
+
 .card-link .hero-card-description {
   color: var(--text-secondary) !important;
 }
+
 /* ***************CARD MAIN***************** */
 .card-main-img {
   position: absolute;
@@ -177,6 +215,7 @@ nav .navbar-collapse {
   max-width: 100%;
   max-height: 100%;
 }
+
 .card-main {
   border-radius: 0.625rem;
   text-align: left;
@@ -187,19 +226,23 @@ nav .navbar-collapse {
   border: none;
   position: relative;
 }
+
 .card-main:hover {
   transform: translateY(-0.8rem);
 }
+
 /*  **************Card add magic************* */
 .card-add-magic {
   border: none;
   box-shadow: none;
   width: 100%;
 }
+
 .card-add-magic .card-img {
   width: 13rem;
   height: 13rem;
 }
+
 /* 
 ****************************************** CARD CREATIVE******************************* */
 .card-creative {
@@ -209,13 +252,16 @@ nav .navbar-collapse {
   transition: all 0.3s ease;
   /* --secondary-bgColor: #F5F6FA; */
 }
+
 .card-creative:hover {
   transform: translateY(-0.8rem);
 }
+
 .card-creative .card-img {
   object-fit: cover;
   border-radius: 10px;
 }
+
 /* ******************************* */
 /* .card-div {
   padding: 0.625rem;
@@ -244,6 +290,7 @@ nav .navbar-collapse {
   border-radius: 12px;
   padding: 0.625rem;
 }
+
 .card-editing-text {
   line-height: 1.7rem;
   text-overflow: ellipsis;
@@ -291,17 +338,22 @@ nav-toggler
 .hero-search-btn:hover {
   background-color: var(--light-gradient);
 }
+
 .hero-input:focus {
   box-shadow: 0 0 39px 2px var(--light-gradient);
 }
+
 .input-group {
   border-radius: 3rem !important;
-  padding: 0rem 5rem;
+  padding: 0% 9%;
 }
+
 .hero-input-group {
   border-radius: 3rem;
   width: 100%;
+  padding: 9px;
 }
+
 .hero-input-group-dropdown {
   background-color: #f5f6fa !important;
   padding: 0.9rem;
@@ -310,23 +362,28 @@ nav-toggler
   border: none;
   font-weight: 600;
 }
+
 .hero-input-group-dropdown:hover {
   color: black;
 }
+
 .hero-input {
   border: none;
   color: var(--text-secondary);
   font-size: 1.1rem;
   left: 1rem;
 }
+
 .hero-input:focus {
   outline: none !important;
   border: none !important;
 }
+
 .trending-title {
   opacity: 0.6;
   color: white;
 }
+
 .trending-list li {
   color: white;
 }

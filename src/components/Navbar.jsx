@@ -20,11 +20,12 @@ function MainNavbar(props) {
                 <Link to='/' className='nav-brand  '>Theiconsol</Link>
                 <button className="navbar-toggler "
                     onClick={() => { setShow(!show) }} >
-                    {show ? <i class="fa fa-bars" aria-hidden="true"></i> :
-                        <i class="fa fa-times" aria-hidden="true"></i>}
+
+                    {show ?<i class="fa-sharp fa-solid fa-bars-staggered"></i> :
+                        <i className="fa fa-times" aria-hidden="true"></i>}
                 </button>
-                <div className={` nav-link-container w-100  justify-content-between ${show ? 'collapse navbar-collapse ' : 'collapse navbar-collapse  active'}`}>
-                    <ul className="d-flex gap-4 w-75 align-items-center  justify-content-center navbar-nav ">
+                <div className={` nav-link-container w-100 d-flex justify-content-center align-items-center ${show ? 'collapse navbar-collapse ' : 'collapse navbar-collapse  active'}`}>
+                    <ul className="d-flex gap-3 w-75 align-items-center  justify-content-center navbar-nav ">
                         <li className="nav-item ">
                             <Link to='/3dillustration' className='navbar-link'>3D Illustration</Link>
                         </li>

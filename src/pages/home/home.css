@@ -11,6 +11,7 @@
 /* ************************HEROSECTION ***************** */
 .hero {
   background: linear-gradient(to bottom, var(--dark-graident), var(--light-gradient));
+  padding:0rem 1rem ;
 }
 
 .hero-section-main {

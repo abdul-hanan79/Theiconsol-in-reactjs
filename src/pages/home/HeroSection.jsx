@@ -10,8 +10,8 @@ function HeroSection() {
     <>
 
       <section className='hero'>
-        <Container >
-          <Row>
+        <Container fluid  >
+        <Row>
             {/* hero section main text div  */}
             <div className='hero-section-main '>
               <h1>17.5 million or more creative assets</h1>
@@ -19,10 +19,12 @@ function HeroSection() {
               <p className='hero-section-main-p2'>that have been carefully selected
                 Every day, or more 7000 new assets are added.<br /> Integrated tools, editors, plugins, and much more.</p>
             </div>
-            {/* hero section main div  end */}
-            {/* form input field */}
+          
+          {/* hero section main div  end */}
+          {/* form input field */}
+          
             <div>
-              <form className='hero-section-form'>
+              <form className='hero-section-form '>
                 <HomeInputGroup />
               </form>
             </div>
@@ -46,15 +48,15 @@ function HeroSection() {
               </Link>
             </Col>
             <Col md={6} sm={6} lg={3} xs={12} className="mb-4">
-              <Link  to='/comingsoon' className='card-link'>
+              <Link to='/comingsoon' className='card-link'>
                 <CardMain title='Lottie Animations'
-                  blur="2px" 
+                  blur="2px"
                   text='/Coming Soon....' bgColor='#EEF8F9' />
-                  {/* <CommingSoon/> */}
+                {/* <CommingSoon/> */}
               </Link></Col>
             <Col md={6} sm={6} lg={3} xs={12} className="mb-4">
               <Link to='/comingsoon' className='card-link'>
-                <CardMain title='Illustrations'  blur="2px"
+                <CardMain title='Illustrations' blur="2px"
                   text='Comming Soon....' bgColor='#FCF2F2' />
               </Link></Col>
 
