@@ -73,10 +73,11 @@ nav .navbar-collapse {
 }
 
 .navbar-toggler {
-  border: 2px solid var(--secondary-color);
+  /* border: 2px solid var(--secondary-color); */
   background-color: white;
   /* border: 0.1px solid var(--secondary-color); */
   /* border-radius: 50px !important; */
+  border: none !important;
   color: var(--secondary-color) !important;
 
 }
