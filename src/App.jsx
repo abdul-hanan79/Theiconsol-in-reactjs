@@ -10,6 +10,7 @@ import NotFound from './pages/NotFound';
 // import Navbar from "./components/Navbar"
 import Layout from './components/Layout';
 import FooterSecondList from './pages/footer/FooterSecondList';
+import CommingSoon from './components/CommingSoon';
 
 
 function App() {
@@ -23,7 +24,7 @@ function App() {
             <Route index element={<HomePage />} />
             <Route path="*" element={<NotFound />} />
             <Route path="footer" element={<FooterSecondList />} />
-
+              <Route path="/comingsoon" element={<CommingSoon/>}/>
           </Route>
         </Routes>
 

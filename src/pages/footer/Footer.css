@@ -12,7 +12,7 @@
 
 
 /* ***********************View Resoirces */
-.view-resources-tittle{
+/* .view-resources-tittle{
     display: flex;
     justify-content: space-between;
 }
@@ -21,20 +21,21 @@
     list-style: none;
     border-radius: 10px;
   background-color: #f5f6fa !important;
-}
-.view-resources-tittle-li-active{
+} */
+/* .view-resources-tittle-li-active{
     background-color: white;
   box-shadow: 0px 3px 8px white, 0px 12px 16px rgb(0 0 0 / 4%);
   border-radius: 10px;
   cursor: pointer;
   font-size: 0.8rem;
-}
-.view-resources-tittle-li{
+} */
+/* .view-resources-tittle-li{
     opacity: 0.8;
     cursor: pointer;
     font-size: 0.8rem;
-    /* EBEDF5 */
-} 
+    /* EBEDF5 
+}  */
+
 /* *************************View Resources List ************************************** */
 .view-resources-ul {
     list-style: none;
@@ -64,4 +65,31 @@
 .footer-second-first-row{
   padding: 2rem;
   border-bottom: 1px dashed gainsboro ;
+}
+.resources-container .nav-link{
+  
+
+}
+.resources-container .nav-link {
+
+  font-size: 1.1rem;
+  font-weight: 600;
+  line-height: 1.5rem;
+  color: var(--secondary-color);
+  text-decoration: none;
+  
+
+  cursor: pointer;
+
+
+  /* color: black; */
+  /* font-family: 'Poppins' !important; */
+}
+
+.resources-container .nav-link:hover {
+  color: var(--primary-color);
+}
+.resources-container .nav-link:active{
+  background-color: var(--secondary-color) ;
+  color: white;
 }

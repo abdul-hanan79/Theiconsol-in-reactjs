@@ -4,6 +4,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 import CardMain from '../../components/CardMain'
 import HomeInputGroup from "../../components/HeroInputGroup"
 import { Link } from 'react-router-dom';
+import CommingSoon from '../../components/CommingSoon';
 function HeroSection() {
   return (
     <>
@@ -45,12 +46,14 @@ function HeroSection() {
               </Link>
             </Col>
             <Col md={6} sm={6} lg={3} xs={12} className="mb-4">
-              <Link to='/lottieAnimation' className='card-link'>
+              <Link  to='/comingsoon' className='card-link'>
                 <CardMain title='Lottie Animations'
-                  blur="2px" text='Comming Soon....' bgColor='#EEF8F9' />
+                  blur="2px" 
+                  text='/Coming Soon....' bgColor='#EEF8F9' />
+                  {/* <CommingSoon/> */}
               </Link></Col>
             <Col md={6} sm={6} lg={3} xs={12} className="mb-4">
-              <Link to='/illustration' className='card-link'>
+              <Link to='/comingsoon' className='card-link'>
                 <CardMain title='Illustrations'  blur="2px"
                   text='Comming Soon....' bgColor='#FCF2F2' />
               </Link></Col>

@@ -1,12 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
-
-/* Colors:
-Primary color: F58648  (Orange)
-Secondary color: 19293A (Dark Blue)
-Gradient Colors:
-color 1: F58648  (Dark Orange)
-color 2: ECA028 (Light Orange) */
-
 :root {
   --primary-color: #F58648;
   --secondary-color: #19293A;
@@ -14,65 +6,101 @@ color 2: ECA028 (Light Orange) */
   --light-gradient: #ECA028;
   --text-secondary: #596080;
   --secondary-bgColor: #F5F6FA;
-
 }
-
+/* navbar header */
 /* /* /* **************Card************* */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-
 body {
   font-family: 'Poppins', sons-serif !important;
 }
-
 .card-link,
 .btn-link {
   text-decoration: none !important;
   color: inherit;
 }
-
 /* *************NAVBAR************** */
-.navbar-div {
+nav {
+  top: 0;
+  box-shadow: 0px 13px 24px 0px rgba(0, 0, 0, 0.08);
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+}
+/* .navbar-content {
+  border: 2px solid black;
+} */
+nav .navbar-collapse.collapse {
+  display: block;
+}
+nav .navbar-collapse {
+  transition: .6s all ease-in-out;
+  height: 0 !important;
+}
+.navbar {
+  position: sticky;
+  background-color: white;
+  z-index: 1;
+}
+.nav-item {
+  margin-right: 1rem;
+}
+/* .navbar-div {
   background-color: white;
   box-shadow: 0 6px 3px rgb(0 0 0 / 8%), 0 4px 8px rgb(0 0 0 / 4%);
-}
+} */
 .nav-brand {
   font-size: 2rem;
   font-weight: 800;
   color: var(--secondary-color);
   text-decoration: none;
 }
-
 .nav-brand:hover {
   color: var(--primary-color);
 }
-
-.nav-link {
+.navbar-toggler {
+  border: 0.1px solid var(--dark-graident);
+  border-radius: 50px !important;
+  color: var(--dark-graident);
+}
+.navbar-toggler:hover {
+  background-color: var(--secondary-bgColor);
+}
+.navbar-toggler:focus {
+  box-shadow: 0 0 4px 1px var(--light-gradient) !important;
+}
+.navbar-collapse {
+  transform: all 3s;
+  flex-basis: 100%;
+  flex-grow: 1;
+  transform: translate(10px, 10px);
+}
+.navbar-link {
   font-size: 1.1rem;
   font-weight: 600;
   line-height: 1.5rem;
   color: var(--secondary-color);
+  text-decoration: none;
   cursor: pointer;
 }
-.nav-link:hover {
+.navbar-link:hover {
   color: var(--primary-color);
 }
 .user .nav-btn {
   border-radius: 2.2rem;
   margin: 5px;
   font-size: 1.1rem;
-  padding: 10px 18px;
+  padding: 8px 15px;
   font-weight: 500;
   transition: all 0.5s;
 }
-
 .nav-btn-link {
   color: white;
   text-decoration: none;
 }
+/* *****************************Sign up button******************************************* */
 .signup-link {
   color: white;
 }
@@ -85,10 +113,10 @@ body {
   transform: translateY(-0.3rem);
   border: 1px solid var(--primary-color);
 }
-
-.user .signup:hover .signup-link:hover {
+.user  .signup:hover .signup-link:hover {
   color: white;
 }
+/* ***********************Login button *************************** */
 .user .login {
   background: white;
   border: 1px solid var(--primary-color);
@@ -102,29 +130,23 @@ body {
   transform: translateY(-0.3rem);
   color: white;
 }
-
 .user .login:hover .login-link {
-
   color: white;
 }
-/* button css */
+/* ************************ Button page css ****************************** */
 .button {
   background-color: var(--secondary-color);
   transition: all 0.4s;
   border: 1px solid var(--secondary-color);
-
 }
-
 .button:hover {
   background-color: var(--primary-color);
   transform: translateY(-0.3rem);
   border: 1px solid var(--primary-color);
 }
-
 .arrow-button {
   border: 1px solid var(--secondary-color);
 }
-
 /* *************ALL CARDS HEADING AND DESCRIPOTION******************** */
 .card-heading {
   font-size: 1rem;
@@ -134,25 +156,18 @@ body {
   white-space: nowrap;
   font-family: 'Poppins' !important;
 }
-
 .card-link .hero-card-heading {
   color: var(--secondary-color);
   font-size: 1.3rem;
-  /* text-decoration: none !important; */
-
 }
-
 .card-description {
   font-size: 0.875rem;
   line-height: 1.5rem;
   color: var(--text-secondary) !important;
 }
-
 .card-link .hero-card-description {
   color: var(--text-secondary) !important;
-
 }
-
 /* ***************CARD MAIN***************** */
 .card-main-img {
   position: absolute;
@@ -162,7 +177,6 @@ body {
   max-width: 100%;
   max-height: 100%;
 }
-
 .card-main {
   border-radius: 0.625rem;
   text-align: left;
@@ -172,60 +186,40 @@ body {
   box-shadow: 0 1px 3px rgb(0 0 0 / 8%), 0 4px 8px rgb(0 0 0 / 4%);
   border: none;
   position: relative;
-
 }
-
 .card-main:hover {
   transform: translateY(-0.8rem);
 }
-
-/* .card-main-body{
-  position: absolute;
-    width: 100%;
-    top: 0; 
-    left: 0;
-    padding: 1.75rem;
-} */
-
-/*  **************Card b************* */
+/*  **************Card add magic************* */
 .card-add-magic {
   border: none;
   box-shadow: none;
   width: 100%;
 }
-
 .card-add-magic .card-img {
   width: 13rem;
   height: 13rem;
-
 }
-
 /* 
-****************************************** CARDCREATIVE******************************* */
+****************************************** CARD CREATIVE******************************* */
 .card-creative {
   border-radius: 0.625rem;
   text-align: left;
   /* width: 100%; */
   transition: all 0.3s ease;
   /* --secondary-bgColor: #F5F6FA; */
-
 }
-
 .card-creative:hover {
   transform: translateY(-0.8rem);
 }
-
 .card-creative .card-img {
   object-fit: cover;
   border-radius: 10px;
 }
-
-
 /* ******************************* */
-.card-div {
+/* .card-div {
   padding: 0.625rem;
 }
-
 .cardd {
   background: #fff;
   box-shadow: 0px 3px 8px rgb(0 0 0 / 8%), 0px 12px 16px rgb(0 0 0 / 4%);
@@ -235,15 +229,13 @@ body {
   flex-direction: column;
   padding: 0.625rem;
   /* position: relative; */
-  /* border: 0.16rem red solid; */
+/* border: 0.16rem red solid; 
 }
-
 .cardd .card-body {
   flex: 0 1 auto !important;
 }
-
-
-/* ******************** Carde********************* */
+ */
+/* ******************** Card editing********************* */
 
 .Card-editing {
   /* width: '18rem'; */
@@ -252,7 +244,6 @@ body {
   border-radius: 12px;
   padding: 0.625rem;
 }
-
 .card-editing-text {
   line-height: 1.7rem;
   text-overflow: ellipsis;
@@ -263,10 +254,10 @@ body {
 }
 
 /* ******************** Cardf********************* */
-.cardf {
+/* .cardf {
   border: none;
 }
-
+nav-toggler
 .card-subtitle {
   font-size: 0.688rem;
   color: var(--primary-color);
@@ -282,7 +273,7 @@ body {
 .cardf .card-text {
   color: var(--text-secondary);
   font-size: 0.875rem;
-}
+} */
 
 /*************************** Hero Input Group***************************************************** */
 .hero-search-btn {
@@ -293,22 +284,24 @@ body {
   padding: 0.75rem;
   width: calc(2px + 3.25rem);
   height: calc(2px + 3.25rem);
-  z-index: 9 !important;
+  z-index: 0 !important;
+  position: absolute;
 }
 
 .hero-search-btn:hover {
   background-color: var(--light-gradient);
 }
-.hero-input:focus{
-  /* border: 2323px solid var(--primary-color) !important; */
-  
-  border-radius: 3rem !important;
-  background-color: yellow;
+.hero-input:focus {
+  box-shadow: 0 0 39px 2px var(--light-gradient);
 }
-/* .hero-input{
-  background-color: yellow;
-  border: 1px solid red !important;
-} */
+.input-group {
+  border-radius: 3rem !important;
+  padding: 0rem 5rem;
+}
+.hero-input-group {
+  border-radius: 3rem;
+  width: 100%;
+}
 .hero-input-group-dropdown {
   background-color: #f5f6fa !important;
   padding: 0.9rem;
@@ -316,44 +309,24 @@ body {
   border-radius: 3rem;
   border: none;
   font-weight: 600;
-
 }
-
 .hero-input-group-dropdown:hover {
   color: black;
 }
-
-.input-group {
-
-  border-radius: 3rem !important;
-  padding: 0rem 5rem;
-}
-
-.hero-input-group {
-  border-radius: 3rem;
-  width: 100%;
-}
-
 .hero-input {
   border: none;
   color: var(--text-secondary);
   font-size: 1.1rem;
   left: 1rem;
 }
-
 .hero-input:focus {
   outline: none !important;
   border: none !important;
-
 }
-
 .trending-title {
   opacity: 0.6;
   color: white;
-  /* color: var(--text-secondary); */
-  /* font-weight: 600; */
 }
-
 .trending-list li {
   color: white;
 }
