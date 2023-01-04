@@ -12,7 +12,7 @@ function HeroInputGroup() {
                 <InputGroup className='hero-input-group  bg-white '>
                     <div className="dropdown">
                         <button className=" dropdown-toggle hero-input-group-dropdown" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                            <span className='dropdown-text mr-5'> All Contents</span>
+                            <span className='dropdown-text mr-3'> All Contents</span>
                         </button>
                         <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
                             <li><a className="dropdown-item" href="#">Action</a></li>

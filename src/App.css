@@ -339,20 +339,24 @@ nav-toggler
 .hero-search-btn:hover {
   background-color: var(--light-gradient);
 }
-
+.hero-input{
+  margin-right: 1.1rem;
+}
 .hero-input:focus {
-  box-shadow: 0 0 39px 2px var(--light-gradient);
+  /* box-shadow: 0 0 39px 2px var(--light-gradient); */
+  box-shadow: none !important;
+ 
 }
 
 .input-group {
   border-radius: 3rem !important;
-  padding: 0% 9%;
+  padding: 0% 18%;
 }
 
 .hero-input-group {
   border-radius: 3rem;
   width: 100%;
-  padding: 9px;
+  padding:  4px 2px !important;
 }
 
 .hero-input-group-dropdown {

@@ -30,13 +30,7 @@
     transform: scale(0.7);
     right: 70px;
     top: -10px;
-    /* background-image: url("./assests/bluePseudoElement.svg"); */
   }
-
-  /* .input-group {
-    border-radius: 3rem !important;
-    padding: 0rem 8rem;
-  } */
 }
 
 /*  ************************************************ */
@@ -78,6 +72,8 @@
     overflow: hidden;
   }
 
+
+
   .dropdown-text {
     font-size: 1rem;
   }
@@ -118,11 +114,25 @@
 
   .hero-search-btn {
     background-color: white;
-
     color: var(--secondary-color);
-
   }
-
+  .hero-input-group-dropdown {
+    padding: 0.3rem;
+    font-weight: 500;
+    padding: 0.7rem;
+  }
+  .dropdown-text{
+    font-size: 1rem;
+  }
+.input-group{
+  padding: 0rem ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero-input-group{
+  padding:  0px 2px !important;
+}
 }
 
 /*  ************************************************ */
@@ -225,9 +235,6 @@
   }
 
 
-  .input-group {
-    /* border-radius: 3rem !important; */
-    /* padding: 0rem 0rem; */
-  }
+
 
 }
