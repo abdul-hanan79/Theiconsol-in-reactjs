@@ -9,11 +9,13 @@ export default function FooterIconNav() {
         <>
             <div className='footer-second-main '>
                 <div class="overflow-hidden" >
-                    <Row className='footer-second-first-row'>
+                    <Row className='footer-second-first-row '>
                         {/* logo <img src="" alt="" /> */}
                         <div className='footer-second'>
-                            <h1>Theiconsol <span style={{ color: "grey", fontWeight: "300", fontSize: "1.2rem", left: "1rem" }}> Design Resource Marketplace</span></h1>
-                            <p><em style={{ color: "#3579C7" }}>Resources for graphics:</em><span style={{ color: "grey", fontWeight: "400" }}>  5,768,851 and counting</span></p>
+                            <Col lg={3} md={3} sm={12} ><h1>Theiconsol</h1></Col>
+                            <Col lg={3} md={3} sm={12}  >
+                                <p style={{ color: "grey", fontWeight: "300", fontSize: "1.2rem", left: "1rem", textAlign: "left" }}> Design Resource Marketplace</p> </Col>
+                            <Col lg={3} md={3} sm={12} > <p><em style={{ color: "#3579C7" }}>Resources for graphics:</em><span style={{ color: "grey", fontWeight: "400" }}>  5,768,851 and counting</span></p> </Col>
                         </div>
                     </Row>
                     <Container>
