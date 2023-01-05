@@ -234,7 +234,9 @@
     padding: 3px 2px;
   }
 
-
+.add-magic-text{
+  display: none;
+}
 
 
 }

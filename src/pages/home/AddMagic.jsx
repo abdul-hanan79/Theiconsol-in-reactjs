@@ -14,8 +14,10 @@ export default function AddMagic() {
         <div class="add-magic-bg-img"></div>
       </div>
       <Container className='add-magic text-center mx-auto '>
-        <h1 className='add-magic-heading '>In 30 seconds, <span className='add-magic-span position-relative'>magically transform </span> <br /> your design.    </h1>
-        <p className='add-magic-text mb-4'>Theiconsol comes with integrated Plugins, conversion Tools, and simple, powerful Editors <br /> that enhance and streamline your workflow.</p>
+        <Row className='justify-content-center'><Col lg={9} xs={12} md={12} sm={12}><h1 className='add-magic-heading '>In 30 seconds, <span className='add-magic-span position-relative'>magically transform </span> your design.    </h1>
+        <p className='add-magic-text mb-4'>Theiconsol comes with integrated Plugins, conversion Tools, and simple, powerful Editors <br /> that enhance and streamline your workflow.</p></Col>
+        </Row>
+        
 
         <Container className='add-magic-cards'>
           <Row className='justify-content-center'>
