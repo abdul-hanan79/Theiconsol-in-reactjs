@@ -6,18 +6,19 @@ import CreativeResources from './CreativeResources'
 import HeroSection from './HeroSection'
 // import RecentStories from './RecentStories'
 import TrustedBrand from './TrustedBrand'
-
+import { motion } from "framer-motion"
 function HomePage() {
   return (
-    <div>
+    <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} >
+
       <HeroSection />
       <TrustedBrand />
       <AddMagic />
       <CreativeResources />
       {/* <EditingMadeEasy/> */}
-      <Artist/>
+      <Artist />
       {/* <RecentStories/> */}
-    </div>
+    </motion.div>
   )
 }
 

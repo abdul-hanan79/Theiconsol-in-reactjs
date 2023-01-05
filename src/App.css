@@ -8,7 +8,18 @@
   --text-secondary: #596080;
   --secondary-bgColor: #F5F6FA;
 }
-
+/* scroll bar */
+::-webkit-scrollbar{
+  width: 12px;
+}
+::-webkit-scrollbar-track{
+  background-color: white;
+  /* padding: 10rem !important; */
+}
+::-webkit-scrollbar-thumb{
+  background-color: var(--secondary-color);
+  border-radius: 50px;
+}
 /* navbar header */
 /* /* /* **************Card************* */
 * {

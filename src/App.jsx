@@ -11,7 +11,7 @@ import NotFound from './pages/NotFound';
 import Layout from './components/Layout';
 import FooterSecondList from './pages/footer/FooterSecondList';
 import CommingSoon from './components/CommingSoon';
-
+import AnimationRoutes from './components/AnimationRoutes';
 
 function App() {
   return (
@@ -19,14 +19,7 @@ function App() {
 
 
       <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<Layout />}>
-            <Route index element={<HomePage />} />
-            <Route path="*" element={<NotFound />} />
-            <Route path="footer" element={<FooterSecondList />} />
-              <Route path="/comingsoon" element={<CommingSoon/>}/>
-          </Route>
-        </Routes>
+        <AnimationRoutes/>
 
       </BrowserRouter>
       {/* */}
