@@ -63,7 +63,8 @@
 }
 /* *************************footer second*********************************** */
 .footer-second-first-row{
-  padding: 2rem;
+  /* padding: 2rem; */
+  padding-top: 2rem;
   border-bottom: 1px dashed gainsboro ;
 }
 .resources-container .nav-link{
