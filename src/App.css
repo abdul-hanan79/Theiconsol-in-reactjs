@@ -49,69 +49,44 @@ nav {
   padding-top: .5rem;
   padding-bottom: .5rem;
 }
-
-/* .navbar-content {
-  border: 2px solid black;
-} */
 nav .navbar-collapse.collapse {
   display: block;
 }
-
 nav .navbar-collapse {
   transition: .6s all ease-in-out;
   height: 0 !important;
 }
-
 .navbar {
   position: sticky;
   background-color: white;
   z-index: 1;
 }
-
 .nav-item {
   margin-right: 1rem;
 }
-
-/* .navbar-div {
-  background-color: white;
-  box-shadow: 0 6px 3px rgb(0 0 0 / 8%), 0 4px 8px rgb(0 0 0 / 4%);
-} */
 .nav-brand {
   font-size: 2rem;
   font-weight: 800;
   color: var(--secondary-color);
   text-decoration: none;
 }
-
 .nav-brand:hover {
   color: var(--primary-color);
 }
-
 .navbar-toggler {
-  /* border: 2px solid var(--secondary-color); */
   background-color: white;
-  /* border: 0.1px solid var(--secondary-color); */
-  /* border-radius: 50px !important; */
   border: none !important;
   color: var(--secondary-color) !important;
-
 }
-
-.navbar-toggler:hover {
-  /* background-color: var(--secondary-bgColor); */
-}
-
 .navbar-toggler:focus {
   box-shadow: none;
 }
-
 .navbar-collapse {
   transform: all 3s;
   flex-basis: 100%;
   flex-grow: 1;
   transform: translate(10px, 10px);
 }
-
 .navbar-link {
   font-size: 1.1rem;
   font-weight: 600;
@@ -120,11 +95,9 @@ nav .navbar-collapse {
   text-decoration: none;
   cursor: pointer;
 }
-
 .navbar-link:hover {
   color: var(--primary-color);
 }
-
 .user .nav-btn {
   border-radius: 2.2rem;
   margin: 5px;
@@ -132,13 +105,12 @@ nav .navbar-collapse {
   padding: 8px 15px;
   font-weight: 500;
   transition: all 0.5s;
+  border: 2px solid red !important;
 }
-
 .nav-btn-link {
   color: white;
   text-decoration: none;
 }
-
 /* *****************************Sign up button******************************************* */
 .signup-link {
   color: white;
@@ -154,32 +126,26 @@ nav .navbar-collapse {
   transform: translateY(-0.3rem);
   border: 1px solid var(--primary-color);
 }
-
 .user .signup:hover .signup-link:hover {
   color: white;
 }
-
 /* ***********************Login button *************************** */
 .user .login {
   background: white;
   border: 1px solid var(--primary-color);
 }
-
 .login-link {
   color: var(--secondary-color);
 }
-
 .user .login:hover {
   background: linear-gradient(to bottom, var(--secondary-color), #264463);
   border: 1px solid var(--secondary-color);
   transform: translateY(-0.3rem);
   color: white;
 }
-
 .user .login:hover .login-link {
   color: white;
 }
-
 /* ************************ Button page css ****************************** */
 .button {
   background-color: var(--secondary-color);

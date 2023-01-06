@@ -62,7 +62,7 @@ export default function FooterSecond() {
                                     <li className='my-3'><Link to="/Join Discord">Join Discord</Link></li>
                                 </ul>
                             </Col>
-                            <Col md={4} xs={6} sm={6} lg={4}>
+                            <Col md={4} xs={12} sm={12} lg={4}>
                                 <ul className='view-resources-ul'>
                                     <li className='my-3 fw-bold text li-heading fs-7'>Get Theiconsole For desktop</li>
 

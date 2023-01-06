@@ -53,14 +53,11 @@
  text-decoration: none ;
  color:white ;
 }
-
 .view-resources-ul li a:hover{
-   /* text-decoration:underline; */
    border-bottom: 2px solid var(--primary-color);
    cursor: pointer;
-   /* color: #19293A; */
 }
-/* footer icon nav */
+/********************************** footer icon nav ******************************/
 .footer-second-main{
   background-color: var(--secondary-color);
 
@@ -78,24 +75,13 @@
   padding-top: 2rem;
   border-bottom: 1px solid #ced4da ;
 }
-.resources-container .nav-link{
-  
-
-}
 .resources-container .nav-link {
-
   font-size: 1.1rem;
   font-weight: 600;
   line-height: 1.5rem;
   color: var(--secondary-color);
   text-decoration: none;
-  
-
   cursor: pointer;
-
-
-  /* color: black; */
-  /* font-family: 'Poppins' !important; */
 }
 
 .resources-container .nav-link:hover {
