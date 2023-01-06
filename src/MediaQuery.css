@@ -90,10 +90,16 @@
   }
 
   .input-group {
-    border-radius: 3rem !important;
-    /* padding: 0rem 0rem; */
+    border-radius: 3rem !important;  }
+  .signup{
+    padding-bottom: 3rem !important;
   }
-
+  .sign1{  
+    margin: 0px 0.1rem !important;
+  }
+  .signupimage{
+    display: none;
+  }
 }
 
 /*  ************************************************ */

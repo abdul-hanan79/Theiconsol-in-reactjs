@@ -6,6 +6,7 @@ import CreativeResources from './CreativeResources'
 import HeroSection from './HeroSection'
 // import RecentStories from './RecentStories'
 import TrustedBrand from './TrustedBrand'
+import ViewResources from "../footer/ViewResources"
 import { motion } from "framer-motion"
 function HomePage() {
   return (
@@ -17,6 +18,7 @@ function HomePage() {
       <CreativeResources />
       {/* <EditingMadeEasy/> */}
       <Artist />
+      <ViewResources/>
       {/* <RecentStories/> */}
     </motion.div>
   )

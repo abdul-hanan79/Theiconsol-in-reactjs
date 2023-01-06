@@ -2,7 +2,7 @@
 import Form from 'react-bootstrap/Form';
 import InputGroup from 'react-bootstrap/InputGroup';
 import HeroSearchBtn from './HeroSearchBtn';
-// import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 function HeroInputGroup() {
     return (
@@ -12,12 +12,12 @@ function HeroInputGroup() {
                 <InputGroup className='hero-input-group  bg-white '>
                     <div className="dropdown">
                         <button className=" dropdown-toggle hero-input-group-dropdown" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                            <span className='dropdown-text mr-3'> All Contents</span>
+                            <span className='dropdown-text mr-3'>Illustration</span>
                         </button>
                         <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                            <li><a className="dropdown-item" href="#">Action</a></li>
-                            <li><a className="dropdown-item" href="#">Another action</a></li>
-                            <li><a className="dropdown-item" href="#">Something else here</a></li>
+                            <li><Link className="dropdown-item" to="/3Dillustration">3Dillustration</Link></li>
+                            <li><Link className="dropdown-item" to="/vectorIcon">vector Icon</Link></li>
+                            {/* <li><Link className="dropdown-item" to="/">Something else here</Link></li> */}
                         </ul>
                     </div>
 

@@ -19,10 +19,6 @@ function HeroSection() {
               <p className='hero-section-main-p2'>that have been carefully selected
                 Every day, or more 7000 new assets are added.<br /> Integrated tools, editors, plugins, and much more.</p>
             </div>
-          
-          {/* hero section main div  end */}
-          {/* form input field */}
-          
             <div>
               <form className='hero-section-form '>
                 <HomeInputGroup />
@@ -30,7 +26,6 @@ function HeroSection() {
             </div>
           </Row>
         </Container>
-
       </section>
       <section className='card-section  '>
         <Container >

@@ -1,0 +1,26 @@
+:root {
+    --primary-color: #F58648;
+    --secondary-color: #19293A;
+    --dark-graident: #F58648;
+    --light-gradient: #ECA028;
+    --text-secondary: #596080;
+    --secondary-bgColor: #F5F6FA;
+  }
+.signup{
+    background: linear-gradient(to bottom,var(--dark-graident) ,var(--light-gradient));
+    padding-bottom: 5rem;
+}
+  .sign1{
+    height: 31rem;
+    margin: 0px 4rem;
+    background-color: rgba(0, 0, 0, 0.378);
+  }
+  .sign-text, .login-text {
+    color: var(--secondary-color);
+  }
+  .sign-hover-text {
+    color: white;
+  }
+  .sign-hover-text:hover {
+    border-bottom: 1px solid var(--dark-graident);
+  }

@@ -1,6 +1,6 @@
 import React from 'react'
 import { Outlet } from 'react-router-dom'
-import FullFooter from '../pages/footer/FullFooter'
+import FooterSecond from '../pages/footer/FooterSecond'
 import Navbar from "./Navbar"
 
 export default function Layout() {
@@ -9,7 +9,7 @@ export default function Layout() {
 
         <Navbar/>
         <Outlet/>
-        <FullFooter/>
+        <FooterSecond/>
     </div>
   )
 }

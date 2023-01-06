@@ -17,20 +17,20 @@ function CreativeResources() {
           </div>
         </Row>
         {/* ROW 2 */}
-        <Row className='mb-3 mt-5' >
-          <Col lg={3} md={3} sm={6} >
-            <CardCreative link="/illustration" title="Pack of Merry Christmas illustrations" text="10 illustrations" image={cardCreativeImg} />
+        <Row className='mb-3 mt-5 '  >
+          <Col lg={3} md={3} sm={6}  className="mb-1">
+            <CardCreative  link="/illustration" title="Pack of Merry Christmas illustrations" text="10 illustrations" image={cardCreativeImg} />
           </Col >
 
-          <Col lg={3} md={3} sm={6}>
+          <Col lg={3} md={3} sm={6} className="mb-1">
             <CardCreative link="/illustration" title="New Year's Eve Illustration Collection" text="17 illustartions" image={cardCreativeImg} />
 
           </Col>
-          <Col lg={3} md={3} sm={6}>
+          <Col lg={3} md={3} sm={6} className="mb-1">
             <CardCreative link="/illustration" title="Avatar 3D Style Icon Pack" text="53 3D Icons " image={cardCreativeImg} />
 
           </Col>
-          <Col lg={3} md={3} sm={6}>
+          <Col lg={3} md={3} sm={6} className="mb-1">
             <CardCreative link="/illustration" title="Christmas 3D icon pack" text="53 3D Icons" image={cardCreativeImg} />
 
 
@@ -39,21 +39,21 @@ function CreativeResources() {
 
         </Row>
         <Row className='mb-3'>
-          <Col lg={3} md={3} sm={6} >
+          <Col lg={3} md={3} sm={6} className="mb-1" >
             <CardCreative link="/illustration" title="Party and Celebration Animated Icon Pack" text=" 20 Animated Icons" image={cardCreativeImg} />
 
           </Col>
 
-          <Col lg={3} md={3} sm={6}>
+          <Col lg={3} md={3} sm={6} className="mb-1">
 
             <CardCreative title="Icon Pack for a Happy New Year" text="53 3D Icons" image={cardCreativeImg} link="/illustration" />
 
           </Col>
-          <Col lg={3} md={3} sm={6}>
+          <Col lg={3} md={3} sm={6} className="mb-1">
             <CardCreative title="Icon Pack for a Happy New Year" text="53 3D Icons" image={cardCreativeImg} link="/illustration" />
 
           </Col>
-          <Col lg={3} md={3} sm={6}>
+          <Col lg={3} md={3} sm={6} className="mb-1">
             <CardCreative title="Icon Pack for a Happy New Year" text="53 3D Icons" image={cardCreativeImg} link="/illustration" />
 
           </Col>

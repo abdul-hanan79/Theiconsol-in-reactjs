@@ -12,6 +12,8 @@
 .hero {
   background: linear-gradient(to bottom, var(--dark-graident), var(--light-gradient));
   padding:0rem 1rem ;
+  /* height: 24rem; */
+  /* border: 2px solid black; */
 }
 
 .hero-section-main {
@@ -46,9 +48,6 @@
   margin-top: -10.063rem;
 }
 
-.hero {
-  padding-bottom: 18%;
-}
 
 /* ***************************Trusting Brand ********************************* */
 .trusted-brand-logos {

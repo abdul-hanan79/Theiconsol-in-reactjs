@@ -1,72 +1,71 @@
 import React from 'react'
 import { Row, Container, Col } from 'react-bootstrap'
-import { useLocation, useParams } from 'react-router-dom';
-import FooterSecondList from './FooterSecondList';
+
+import { Link } from "react-router-dom"
+import FooterIconNav from './FooterIconNav'
 // import ViewResourcesList from './ViewResourcesList';
 
-export default function FooterIconNav() {
+export default function FooterSecond() {
     return (
         <>
             <div className='footer-second-main '>
                 <div class="overflow-hidden" >
-                    <Container>
-                        <Row className='footer-second-first-row  align-items-center'>
-                            {/* logo <img src="" alt="" /> */}
 
-                            <Col lg={3} md={6} sm={12}><h1>Theiconsol</h1></Col>
-                            <Col lg={3} md={6} sm={12} >
-                                <p style={{ color: "grey", fontWeight: "300", fontSize: "1.2rem" }}> Design Resource Marketplace</p>
-                            </Col>
-                            <Col lg={6} md={6} sm={12} > <p className='  text-end' ><em style={{ color: "#3579C7" }}>Resources for graphics:</em><span style={{ color: "grey", fontWeight: "400" }}>  5,768,851 and counting</span></p>
-                            </Col>
-
-                        </Row>
+                    <Container fluid>
+                        <FooterIconNav/>
                         <Row>
                             <Col md={4} xs={6} sm={6} lg={2}>
-                                <FooterSecondList
-                                    lih="Graphic Resources"
-                                    lia="Free icon"
-                                    lib="Free Logo Icons"
-                                    lic="iOS Icons"
-                                    lid="Sticker Icons"
-                                    lie="Gradient Icons"
-                                    lif="Calendar of festivities"
-                                    lig="Free Assets of The Day" />
+                                <ul className='view-resources-ul'>
+                                <li className='my-3 fw-bold text fs-7'>Graphic Resources</li>
+                                    <li className='my-3 '><Link to="/footer/params">Free icon</Link></li>
+                                    <li className='my-3'><Link to="/footer/params">Free Logo Icons</Link></li>
+                                    <li className='my-3'><Link to="/footer/params">IOS Icons</Link></li>
+                                    <li className='my-3'><Link to="/footer/params">Sticker Icons</Link></li>
+                                    <li className='my-3'><Link to="/footer/params">Gradient Icons</Link></li>
+                                    <li className='my-3'><Link to="/footer/params">Apps & Plugins </Link></li>
+                                    <li className='my-3'><Link to="/footer/params">Use Cases</Link></li>
+                                    <li className='my-3'><Link to="/footer/params">Free Icon OF The Day</Link></li>
+                                </ul>
                             </Col>
                             <Col md={4} xs={6} sm={6} lg={2}>
-                                <FooterSecondList
-                                    lih="Product"
-                                    lia="Unicons Icons Font "
-                                    lib="Color editor"
-                                    lic="Apps & Plugins "
-                                    lid="Hire Designers"
-                                    lie="Theiconsol API" />
+                            <ul className='view-resources-ul'>
+                                    <li className='my-3 fw-bold text fs-7'>Product</li>
+                                    <li className='my-3'><Link to="/footer/params">Unicons Icons Font </Link></li>
+                                    <li className='my-3 '><Link to="/footer/params">Color Editor</Link></li>
+                                    <li className='my-3'><Link to="/footer/params">Free Logo Icons</Link></li>
+                                    <li className='my-3'><Link to="/footer/params">Sticker Icons</Link></li>
+                                    <li className='my-3'><Link to="/footer/params">Hire Designers</Link></li>
+                                </ul>
                             </Col>
                             <Col md={4} xs={6} sm={6} lg={2}>
-                                <FooterSecondList
-                                    lih="Company"
-                                    lia="  Blog"
-                                    lib="Tutorials"
-                                    lic=" About"
-                                    lid="All Featurest"
-                                    lie="Sell on Theiconsol"
-                                    lif="Startup Program"
-                                    lig="We,are hearing" />
+                            <ul className='view-resources-ul'>
+                                    <li className='my-3 fw-bold text fs-7'>Company</li>
+                                    <li className='my-3'><Link to="/footer/params"> Blog</Link></li>
+                                    <li className='my-3 '><Link to="/footer/params">Tutorials</Link></li>
+                                    <li className='my-3'><Link to="/footer/params"> About</Link></li>
+                                    <li className='my-3'><Link to="/footer/params">IOS Icons</Link></li>
+                                    <li className='my-3'><Link to="/footer/params">All Featurest</Link></li>
+                                    <li className='my-3'><Link to="/footer/params">sell On Theiconsol</Link></li>
+                                    <li className='my-3'><Link to="/footer/params">Startup Program</Link></li>
+                                    <li className='my-3'><Link to="/footer/params">We,are Hearing</Link></li>
+                                </ul>
                             </Col>
                             <Col md={4} xs={6} sm={6} lg={2}>
-                                <FooterSecondList
-                                    lih="Legal"
-                                    lia="Terms of Use"
-                                    lib=" Privacy Policy"
-                                    lic="License Agreement"
-                                    lid=" Contributor Terms"
-                                    lie=" Support Center"
-                                    lif="  Join Discord" />
+                            <ul className='view-resources-ul'>
+                                    <li className='my-3 fw-bold text fs-7'>Legal</li>
+                                    <li className='my-3'><Link to="/Terms of Use"> Terms Of Use</Link></li>
+                                    <li className='my-3 '><Link to="/Privacy Policy">Privacy Policy</Link></li>
+                                    <li className='my-3 '><Link to="/Privacy Policy">Lisence Agreement</Link></li>
+                                    <li className='my-3'><Link to="/Contributor Terms">Contributor Terms</Link></li>
+                                    <li className='my-3'><Link to="/Support Center">Support Center</Link></li>
+                                    <li className='my-3'><Link to="/Join Discord">Join Discord</Link></li>
+                                </ul>
                             </Col>
                             <Col md={4} xs={6} sm={6} lg={4}>
-                                <FooterSecondList
-                                    lih="Get Theiconsole For desktop"
-                                    lia="Merry Christmas" />
+                            <ul className='view-resources-ul'>
+                                    <li className='my-3 fw-bold text fs-7'>Get Theiconsole For desktop</li>
+                                    <li className='my-3'><Link to="/Terms of Use">Merry Christmas</Link></li>
+                                </ul>
                             </Col>
                         </Row>
                     </Container>
