@@ -22,7 +22,7 @@ function MainNavbar() {
                 <div className={` nav-link-container w-100 d-flex justify-content-center align-items-center ${show ? 'collapse navbar-collapse ' : 'collapse navbar-collapse  active'}`}>
                     <ul className="d-flex gap-3 w-75 align-items-center  justify-content-center navbar-nav ">
                         <li className="nav-item ">
-                            <Link to='/3dillustration' className='navbar-link'>3D Illustration</Link>
+                            <Link to='/3dillustration' className='navbar-link'>Illustration</Link>
                         </li>
                         <li className="nav-item">
                             <Link to='/vectoricon' className='navbar-link'>Vector Icon</Link>

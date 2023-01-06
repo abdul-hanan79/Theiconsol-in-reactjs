@@ -1,10 +1,10 @@
 import React from 'react'
 import { motion } from "framer-motion"
 import { Container, Row, Col } from "react-bootstrap"
-import signupimage from "../assests/auth-img.png"
+import signupimage from "../../assests/auth-img.png"
 import { Link } from "react-router-dom"
-import Button from "../components/Button"
-import "./Pages.css"
+import Button from "../../components/Button"
+import "./Authentication.css"
 export default function Login() {
   return (
     <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }}>
@@ -24,9 +24,9 @@ export default function Login() {
                 <h2 className='text-light pt-2'>Sign In Account</h2>
                 <input className="form-control mb-4 " type="email" placeholder="Email" />
                 <input className="form-control mb-4 " type="password" placeholder="Password" />
-                <p className='d-flex justify-content-between'>
+                <p className='d-flex justify-content-between login-text'>
                    <span >
-                  <input class="form-check-input  me-2 " type="checkbox" />
+                  <input className=" form-check-input   me-2 " type="checkbox" />
                   Remember Me </span>
                   <span>  <input class="form-check-input  me-2" type="checkbox" />Forget Password</span>
                 

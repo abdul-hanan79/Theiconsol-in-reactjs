@@ -3,6 +3,7 @@ import { Row, Container, Col } from 'react-bootstrap'
 
 import { Link } from "react-router-dom"
 import FooterIconNav from './FooterIconNav'
+import FooterCopyright from './FooterCopyright'
 // import ViewResourcesList from './ViewResourcesList';
 
 export default function FooterSecond() {
@@ -12,11 +13,11 @@ export default function FooterSecond() {
                 <div class="overflow-hidden" >
 
                     <Container fluid>
-                        <FooterIconNav/>
+                        <FooterIconNav />
                         <Row>
                             <Col md={4} xs={6} sm={6} lg={2}>
                                 <ul className='view-resources-ul'>
-                                <li className='my-3 fw-bold text fs-7'>Graphic Resources</li>
+                                    <li className='my-3 li-heading fw-bold text fs-7'>Graphic Resources</li>
                                     <li className='my-3 '><Link to="/footer/params">Free icon</Link></li>
                                     <li className='my-3'><Link to="/footer/params">Free Logo Icons</Link></li>
                                     <li className='my-3'><Link to="/footer/params">IOS Icons</Link></li>
@@ -28,8 +29,8 @@ export default function FooterSecond() {
                                 </ul>
                             </Col>
                             <Col md={4} xs={6} sm={6} lg={2}>
-                            <ul className='view-resources-ul'>
-                                    <li className='my-3 fw-bold text fs-7'>Product</li>
+                                <ul className='view-resources-ul'>
+                                    <li className='my-3 fw-bold li-heading text fs-7'>Product</li>
                                     <li className='my-3'><Link to="/footer/params">Unicons Icons Font </Link></li>
                                     <li className='my-3 '><Link to="/footer/params">Color Editor</Link></li>
                                     <li className='my-3'><Link to="/footer/params">Free Logo Icons</Link></li>
@@ -38,8 +39,8 @@ export default function FooterSecond() {
                                 </ul>
                             </Col>
                             <Col md={4} xs={6} sm={6} lg={2}>
-                            <ul className='view-resources-ul'>
-                                    <li className='my-3 fw-bold text fs-7'>Company</li>
+                                <ul className='view-resources-ul'>
+                                    <li className='my-3 fw-bold li-heading text fs-7'>Company</li>
                                     <li className='my-3'><Link to="/footer/params"> Blog</Link></li>
                                     <li className='my-3 '><Link to="/footer/params">Tutorials</Link></li>
                                     <li className='my-3'><Link to="/footer/params"> About</Link></li>
@@ -51,8 +52,8 @@ export default function FooterSecond() {
                                 </ul>
                             </Col>
                             <Col md={4} xs={6} sm={6} lg={2}>
-                            <ul className='view-resources-ul'>
-                                    <li className='my-3 fw-bold text fs-7'>Legal</li>
+                                <ul className='view-resources-ul'>
+                                    <li className='my-3 fw-bold li-heading text fs-7'>Legal</li>
                                     <li className='my-3'><Link to="/Terms of Use"> Terms Of Use</Link></li>
                                     <li className='my-3 '><Link to="/Privacy Policy">Privacy Policy</Link></li>
                                     <li className='my-3 '><Link to="/Privacy Policy">Lisence Agreement</Link></li>
@@ -62,15 +63,32 @@ export default function FooterSecond() {
                                 </ul>
                             </Col>
                             <Col md={4} xs={6} sm={6} lg={4}>
-                            <ul className='view-resources-ul'>
-                                    <li className='my-3 fw-bold text fs-7'>Get Theiconsole For desktop</li>
-                                    <li className='my-3'><Link to="/Terms of Use">Merry Christmas</Link></li>
+                                <ul className='view-resources-ul'>
+                                    <li className='my-3 fw-bold text li-heading fs-7'>Get Theiconsole For desktop</li>
+
+                                    <a className='btn-link' href='/apple'><button type="button" className="btn btn-light  btn-artist">
+                                        <i class="fa-brands fa-lg fa-apple"></i></button></a>
+                                    <a className='btn-link' href='/window'><button type="button" className="btn btn-light ms-1 btn-artist">
+                                        <i class="fa-brands fa-lg fa-windows"></i></button></a>
+                                </ul>  <ul className='view-resources-ul'>
+                                    <li className='my-3 fw-bold text li-heading fs-7'>Follow Us</li>
+
+                                    <a className='btn-link' href='https://www.facebook.com/thetechnixus' target="_blank"><button type="button" className="btn btn-light  btn-artist">
+                                        <i class="fa-brands fa-lg fa-facebook"></i></button></a>
+                                    <a className='btn-link' href='https://www.instagram.com/technixus/' target="_blank"><button type="button" className="btn btn-light ms-1 btn-artist">
+                                        <i class="fa-brands fa-lg fa-instagram"></i></button></a>
+                                    <a className='btn-link' href='https://twitter.com/nomanali7788459' target="_blank"><button type="button" className="btn btn-light ms-1 btn-artist">
+                                        <i class="fa-brands fa-lg fa-twitter"></i></button>
+                                    </a>
+                                    <a className='btn-link' href='https://technixus.com/' target="_blank"><button type="button" className="btn btn-light ms-1 btn-artist" >
+                                        <i class="fa-solid fa-globe"></i></button></a>
                                 </ul>
                             </Col>
                         </Row>
                     </Container>
                 </div>
             </div>
+            <FooterCopyright />
         </>
     )
 }

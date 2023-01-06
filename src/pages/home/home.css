@@ -11,9 +11,11 @@
 /* ************************HEROSECTION ***************** */
 .hero {
   background: linear-gradient(to bottom, var(--dark-graident), var(--light-gradient));
-  padding:0rem 1rem ;
+  padding: 0rem 1rem;
   /* height: 24rem; */
   /* border: 2px solid black; */
+  padding-bottom: 12rem;
+  ;
 }
 
 .hero-section-main {
@@ -45,7 +47,7 @@
 
 /* .hero-main-div{position: relative;} */
 .card-section .container .row {
-  margin-top: -10.063rem;
+  margin-top: -8.063rem;
 }
 
 
@@ -63,7 +65,7 @@
 .trusted-brand-img {
   transition: all 0.4s;
   border-radius: 10px;
- /* margin-right: 0.7rem; */
+  /* margin-right: 0.7rem; */
 }
 
 .trusted-brand-img:hover {

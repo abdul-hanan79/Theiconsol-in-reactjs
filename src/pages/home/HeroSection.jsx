@@ -5,13 +5,14 @@ import CardMain from '../../components/CardMain'
 import HomeInputGroup from "../../components/HeroInputGroup"
 import { Link } from 'react-router-dom';
 import CommingSoon from '../../components/CommingSoon';
+import ImgComingSoon from '../../assests/comingSoon.jpg'
 function HeroSection() {
   return (
     <>
 
       <section className='hero'>
         <Container fluid  >
-        <Row>
+          <Row >
             {/* hero section main text div  */}
             <div className='hero-section-main '>
               <h1>17.5 million or more creative assets</h1>
@@ -27,31 +28,31 @@ function HeroSection() {
           </Row>
         </Container>
       </section>
-      <section className='card-section  '>
+      <section className='card-section '>
         <Container >
           <Row >
             <Col md={6} sm={6} lg={3} xs={12} className="mb-4">
 
               <Link to='/3dIllustration' className='card-link'>
-                <CardMain title='3D Illustrations'
+                <CardMain imgSrc='https://cdna.iconscout.com/img/attbWsQ9JL8oBpjWD.0763dd4.png?w=624&h=0&f=png' title='3D Illustrations'
                   text='118,300 + 3d Contents in 3D with input file' bgColor='#DAFEEA ' />
               </Link></Col>
             <Col md={6} sm={6} lg={3} xs={12} className="mb-4">
               <Link to='/vectorIcons' className='card-link'>
-                <CardMain title='Vector Icons'
+                <CardMain title='Vector Icons' imgSrc='https://cdna.iconscout.com/img/attbWsQ9JL8oBpjWD.0763dd4.png?w=624&h=0&f=png'
                   text='4.9 million plus vector icons, colour editor' bgColor='#FFE5EE' />
               </Link>
             </Col>
             <Col md={6} sm={6} lg={3} xs={12} className="mb-4">
               <Link to='/comingsoon' className='card-link'>
-                <CardMain title='Lottie Animations'
+                <CardMain title='Lottie Animations' imgSrc={ImgComingSoon}
                   blur="2px"
-                  text='/Coming Soon....' bgColor='#EEF8F9' />
+                  text='Coming Soon....' bgColor='#EEF8F9' />
                 {/* <CommingSoon/> */}
               </Link></Col>
             <Col md={6} sm={6} lg={3} xs={12} className="mb-4">
               <Link to='/comingsoon' className='card-link'>
-                <CardMain title='Illustrations' blur="2px"
+                <CardMain title='Illustrations' blur="2px" imgSrc={ImgComingSoon}
                   text='Comming Soon....' bgColor='#FCF2F2' />
               </Link></Col>
 

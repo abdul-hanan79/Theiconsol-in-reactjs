@@ -1,10 +1,12 @@
 import React from 'react'
 import { motion } from "framer-motion"
 import { Container, Row, Col } from "react-bootstrap"
-import signupimage from "../assests/auth-img.png"
+import signupimage from "../../assests/auth-img.png"
+
 import { Link } from "react-router-dom"
-import Button from "../components/Button"
-import "./Pages.css"
+import Button from "../../components/Button"
+
+import "./Authentication.css"
 
 export default function Signup() {
   return (
@@ -28,20 +30,20 @@ export default function Signup() {
                 <input className="form-control mb-4 " type="password" placeholder="Password" />
                 <input className="form-control mb-4 " type="password" placeholder=" Confirm Password" />
                 <p className='text-light'>
-                  <input class="form-check-input  me-2" type="checkbox" /> 
+                  <input class="form-check-input  me-2" type="checkbox" />
                   <span className="sign-text "> I Agree With All </span> Terms & Condition
                 </p>
                 <Button title="CREATE AN ACCOUNT " />
-                <p className=' pt-2 '>
+                <p className=' pt-2 login-text'>
                   Already You Have An Account In Here?
-                   <span className="sign-hover-text  "> 
-                   <Link to="/login" className='  text-light text-decoration-none'> Sign In</Link>
-                  </span> 
-                   </p>
+                  <span className="sign-hover-text  ">
+                    <Link to="/login" className='  text-light text-decoration-none'> Sign In</Link>
+                  </span>
+                </p>
               </div>
             </Col>
             <Col lg={6} md={12} sm={12} xs={12} className=" signupimage d-flex justify-content-center align-items-center">
-              <img src={signupimage} alt=""className='signupimage' />
+              <img src={signupimage} alt="" className='signupimage' />
             </Col>
           </Row>
         </Container>

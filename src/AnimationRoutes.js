@@ -6,8 +6,8 @@ import Layout from './components/Layout';
 import CommingSoon from './components/CommingSoon';
 import {  Routes, Route, useLocation } from 'react-router-dom';
 import { AnimatePresence } from 'framer-motion';
-import Signup from './pages/Signup';
-import Login from './pages/Login';
+import Signup from './pages/authentication/Signup';
+import Login from './pages/authentication/Login';
 export default function AnimationRoutes() {
     const location = useLocation();
     return (

@@ -16,7 +16,7 @@
     background-color: rgba(0, 0, 0, 0.378);
   }
   .sign-text, .login-text {
-    color: var(--secondary-color);
+    color: #dee2e6;
   }
   .sign-hover-text {
     color: white;

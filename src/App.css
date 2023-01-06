@@ -8,18 +8,22 @@
   --text-secondary: #596080;
   --secondary-bgColor: #F5F6FA;
 }
+
 /* scroll bar */
-::-webkit-scrollbar{
+::-webkit-scrollbar {
   width: 13px;
 }
-::-webkit-scrollbar-track{
+
+::-webkit-scrollbar-track {
   background-color: #e9ecef;
   border-radius: 50px;
 }
-::-webkit-scrollbar-thumb{
-  background-color: var(--light-gradient);
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--secondary-color);
   border-radius: 50px;
 }
+
 /* navbar header */
 /* /* /* **************Card************* */
 * {
@@ -348,15 +352,22 @@ nav-toggler
 }
 
 .hero-search-btn:hover {
-  background-color: var(--light-gradient);
+  background-color: var(--secondary-color);
 }
-.hero-input{
+
+.hero-search-btn:focus {
+  background-color: var(--secondary-color) !important;
+
+}
+
+.hero-input {
   margin-right: 1.1rem;
 }
+
 .hero-input:focus {
   /* box-shadow: 0 0 39px 2px var(--light-gradient); */
   box-shadow: none !important;
- 
+
 }
 
 .input-group {
@@ -367,20 +378,38 @@ nav-toggler
 .hero-input-group {
   border-radius: 3rem;
   width: 100%;
-  padding:  4px 2px !important;
+  padding: 4px 2px !important;
 }
 
 .hero-input-group-dropdown {
-  background-color: #f5f6fa !important;
+  background-color: #e9ecef !important;
   padding: 0.9rem;
   color: #000;
   border-radius: 3rem;
   border: none;
   font-weight: 600;
+
 }
 
 .hero-input-group-dropdown:hover {
   color: black;
+}
+
+.input-group .dropdown-menu {
+  /* margin-top: 0.1rem !important; */
+  border-radius: 1rem;
+  box-shadow: 3px 2px 1px rgb(0 0 0 / 8%), 0 4px 8px rgb(0 0 0 / 4%)
+}
+
+.input-group .dropdown-menu .dropdown-item {
+  color: var(--secondary-color);
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+
+.input-group .dropdown-menu .dropdown-item:hover {
+  background-color: var(--primary-color);
+  color: white;
 }
 
 .hero-input {

@@ -12,18 +12,18 @@ function HeroInputGroup() {
                 <InputGroup className='hero-input-group  bg-white '>
                     <div className="dropdown">
                         <button className=" dropdown-toggle hero-input-group-dropdown" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                            <span className='dropdown-text mr-3'>Illustration</span>
+                            <span className='dropdown-text mr-3'>All Content</span>
                         </button>
                         <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                            <li><Link className="dropdown-item" to="/3Dillustration">3Dillustration</Link></li>
-                            <li><Link className="dropdown-item" to="/vectorIcon">vector Icon</Link></li>
+                            <li><Link className="dropdown-item" to="/3Dillustration">Illustration</Link></li>
+                            <li><Link className="dropdown-item" to="/vectorIcon">Vector Icon</Link></li>
                             {/* <li><Link className="dropdown-item" to="/">Something else here</Link></li> */}
                         </ul>
                     </div>
 
                     <Form.Control aria-label="Text input with 2 dropdown buttons" className='hero-input'
                         placeholder='Browse through 5,663,871 Contents' />
-                    <HeroSearchBtn  />
+                    <HeroSearchBtn />
                 </InputGroup>
             </div>
             <div className='trending d-flex justify-content-center gap-3 mt-3 lh-sm flex-wrap'>
