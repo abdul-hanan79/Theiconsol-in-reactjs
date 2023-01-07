@@ -46,7 +46,7 @@
     overflow: hidden;
   }
   nav .navbar-collapse.active {
-    height: 14vh !important;
+    height: 28vh !important;
     display: flex;
     justify-content: center;
     flex-direction: column;
