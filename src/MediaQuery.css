@@ -46,10 +46,11 @@
     overflow: hidden;
   }
   nav .navbar-collapse.active {
-    height: 40vh !important;
+    height: 14vh !important;
     display: flex;
     justify-content: center;
     flex-direction: column;
+    /* text-align: center; */
   }
   nav .nav-link-container {
     gap: 0.8rem;
@@ -61,10 +62,9 @@
     border-radius: 2.2rem;
     margin: 5px;
     font-size: 1rem;
-    padding: 0px 10px;
+    padding: 5px 15px;
     font-weight: 300;
     transition: all 0.5s;
-    border: 2px solid greenyellow !important;
   }
   .hero-input {
     text-overflow: ellipsis;
@@ -84,7 +84,7 @@
   }
   .input-group {
     border-radius: 3rem !important;  }
-  .signup{
+  .signup-page{
     padding-bottom: 3rem !important;
   }
   .sign1{  

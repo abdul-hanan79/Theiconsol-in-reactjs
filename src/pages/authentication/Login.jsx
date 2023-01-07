@@ -8,7 +8,7 @@ import "./Authentication.css"
 export default function Login() {
   return (
     <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }}>
-      <div className='signup '>
+      <div className='signup-page '>
         <Container>
           <Row className='pb-3'>
             <Col><h1 className='text-light text-center text-decoration-none pt-2'>Sign In Account</h1>

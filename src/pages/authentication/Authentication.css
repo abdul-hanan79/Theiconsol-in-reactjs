@@ -6,7 +6,7 @@
     --text-secondary: #596080;
     --secondary-bgColor: #F5F6FA;
   }
-.signup{
+.signup-page{
     background: linear-gradient(to bottom,var(--dark-graident) ,var(--light-gradient));
     padding-bottom: 5rem;
 }

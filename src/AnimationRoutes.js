@@ -8,11 +8,13 @@ import {  Routes, Route, useLocation } from 'react-router-dom';
 import { AnimatePresence } from 'framer-motion';
 import Signup from './pages/authentication/Signup';
 import Login from './pages/authentication/Login';
+import GoToTop from './components/GoToTop';
 export default function AnimationRoutes() {
     const location = useLocation();
     return (
         <>
             <AnimatePresence>
+               
                 <Routes location={location} key={location.pathname}>
                     <Route path="/" element={<Layout />}>
                         <Route index element={<HomePage />} />
@@ -21,8 +23,10 @@ export default function AnimationRoutes() {
                         <Route path='/signup' element={<Signup/>}/>
                         <Route path='/login' element={<Login/>}></Route>
                     </Route>
+                    
                     <Route path="/*" element={<NotFound />} />
                 </Routes>
+                <GoToTop/>
             </AnimatePresence>
         </>
     )

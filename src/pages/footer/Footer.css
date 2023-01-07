@@ -42,6 +42,7 @@
 }
 .li-heading{
   color: var(--primary-color) !important;
+  transition: all 0.7s ease;
 }
 .li-heading:hover{
   border-bottom: 2px solid white;
@@ -52,6 +53,7 @@
   font-size: 0.85rem;
  text-decoration: none ;
  color:white ;
+ transition: all 0.7s ease;
 }
 .view-resources-ul li a:hover{
    border-bottom: 2px solid var(--primary-color);
@@ -98,6 +100,7 @@
  
 }
 .copyright-span{
+  transition:  all 1s ease;
   font-weight: 700;
 }
 .copyright-span:hover{
